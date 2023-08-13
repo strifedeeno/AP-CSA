@@ -1,5 +1,6 @@
 {
     "gitdoc.autoCommitDelay": 1000,
     "gitdoc.autoPullDelay": 1000,
-    "gitdoc.autoPushDelay": 1000
+    "gitdoc.autoPushDelay": 1000,
+    "gitdoc.commitMessageFormat": "FFF"
 }
