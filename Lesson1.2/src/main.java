@@ -5,7 +5,7 @@ public class main {
         doge("Doggy");
         doge("Jake");
         doge("Dog");
-        doge(L);
+        doge("Nerd");
     }
     public static void doge(String dogename){
         System.out.println("The dogename is " + dogename);
