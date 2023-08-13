@@ -3,6 +3,7 @@ public class main {
         System.out.println("Hello, World!");
         System.out.println("How are you??");
         doge("Doggy");
+        doge();
     }
     public static void doge(String dogename){
         System.out.println("The dogename is " + dogename);
