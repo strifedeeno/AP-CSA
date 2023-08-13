@@ -3,7 +3,7 @@ public class main {
         System.out.println("Hello, World!");
         System.out.println("How are you??");
     }
-    public static void dog(String Name){
-
+    public static void doge(String dogename){
+        System.out.println("The dogename is" );
     }
 }
