@@ -13,7 +13,9 @@ public class main {
                 are
                 you
                 the man said "How was your day?" """);
-        System.out.println("""A""");
+        System.out.println("""
+                Ameya is here
+                """);
     }
     public static void doge(String dogename){
         System.out.println("The dogename is " + dogename);
