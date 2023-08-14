@@ -6,6 +6,14 @@ public class main {
         doge("Jake");
         doge("Dog");
         doge("Nerd");
+        System.out.println('Hello');
+        System.out.println("""
+                Hello
+                how
+                are
+                you
+                the man said "How was your day?"
+                """;);
     }
     public static void doge(String dogename){
         System.out.println("The dogename is " + dogename);
