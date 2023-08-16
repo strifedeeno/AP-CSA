@@ -7,9 +7,9 @@ public class App {
                 |||||||||[\"\"\"\"]||||||||
                 |||||||||[.......]||||||||
                     OOOOOOOOOOOOOOOOO
-                    OOOOOOOOOOOOOOO
-                     OOOOOOOOOO
-                      OOOOOOOO
+                     OOOOOOOOOOOOOOO
+                      OOOOOOOOOO
+                       OOOOOOOO
 
                 """);
     }
