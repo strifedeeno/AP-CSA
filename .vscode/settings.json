@@ -3,5 +3,6 @@
     "gitdoc.autoPullDelay": 1000,
     "gitdoc.autoPushDelay": 1000,
     "gitdoc.commitMessageFormat": "FFF",
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "gitdoc.enabled": false
 }
