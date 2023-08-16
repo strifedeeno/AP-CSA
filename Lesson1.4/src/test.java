@@ -1,6 +1,6 @@
+import java.rmi.Remote;
+
 public class test {
-    public static void main(String[] args){
-        
-    }
+    Remote repository contains conflicting changes
     
 }
