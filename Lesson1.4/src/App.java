@@ -6,10 +6,10 @@ public class App {
                 @ @ @ @ @ @ @ @ @ @ @
                 |||||||||[\"\"\"\"]||||||||
                 |||||||||[.......]||||||||
-                   OOOOOOOOOOOOOOOOO
+                    OOOOOOOOOOOOOOOOO
                     OOOOOOOOOOOOOOO
                      OOOOOOOOOO
-                   OOOOOOOO
+                      OOOOOOOO
 
                 """);
     }
