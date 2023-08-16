@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args){
         //This is a comment.
-        /*U */
+        /*Use camel  */
         System.out.println("Hello, World!");
     }
 }
