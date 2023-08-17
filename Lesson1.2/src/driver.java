@@ -18,7 +18,7 @@ public class driver {
     }
     public static void doge(String dogename){
         System.out.println("The dogename is " + dogename);
-        System.out.println("How are you today?" + dogename);
+        System.out.println("How are you today " + dogename);
         System.out.println("You are a good doge" + dogename);
     }
 }
