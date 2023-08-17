@@ -18,6 +18,6 @@ public class driver {
     }
     public static void doge(String dogename){
         System.out.println("The dogename is " + dogename);
-        so
+        sout
     }
 }
