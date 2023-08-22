@@ -4,5 +4,7 @@
     "gitdoc.autoPushDelay": 1000,
     "gitdoc.commitMessageFormat": "FFF",
     "java.debug.settings.onBuildFailureProceed": true,
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "files.autoSaveDelay": 1,
+    "files.autoSave": "afterDelay"
 }
