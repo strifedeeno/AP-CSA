@@ -6,7 +6,7 @@ public class App {
         }
     public static void digits() {
         int x = 7625;
-        tempstring=x.toString();
+        String tempstring=x.toString();
         for (int i=0;i++;){
             System.out.println(tempstring.charAt(i));
         }
