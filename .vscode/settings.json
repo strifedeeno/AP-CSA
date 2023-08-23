@@ -6,5 +6,6 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "gitdoc.enabled": true,
     "files.autoSaveDelay": 1,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "gitdoc.timeZone": "America\\Los_Angeles"
 }
