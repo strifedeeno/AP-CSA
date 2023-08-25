@@ -1,6 +1,6 @@
 public class App {
     public static void fancyMethod() {
-int d = 7;
+        int d = 7;
 System.out.println("d is " + d);
 }
 public static void main(String[] args) {
