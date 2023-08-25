@@ -12,7 +12,7 @@ public class App {
         System.out.println("b is " + b);
     }
     public static void anotherFancyMethod() {
-        
+        /* */
         int a = 1;
         for (int i = 0; i < 3; i++) {
             int e = 42;
