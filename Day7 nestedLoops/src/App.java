@@ -23,6 +23,6 @@ public class App {
     }
     //end
     /*Output:
-     * 
+     
      */
 }
