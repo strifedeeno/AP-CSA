@@ -24,9 +24,9 @@ public class App {
     //end
     /*Output:
     d is 7
-c is 10
-e is 42
-e is 42
+    c is 10
+    e is 42
+    e is 42
 e is 42
 a is 1
 b is 100
