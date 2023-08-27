@@ -23,6 +23,8 @@ public class App {
     }
     //end
     /*Output:
-     
+     d is 7
+c is 10
+    b is 100
      */
 }
