@@ -8,6 +8,6 @@ public class App {
         System.out.println(" |\" \" \" \" \" \" \" \" \" \" |");
     }
     public static void middleThing(){
-        System.out.println();
+        System.out.println("||");
     }
 }
