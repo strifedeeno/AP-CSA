@@ -7,4 +7,7 @@ public class App {
     public static void bracketQuoteThing(){
         System.out.println(" |\" \" \" \" \" \" \" \" \" \" |");
     }
+    public static void middleThing(){
+        sout
+    }
 }
