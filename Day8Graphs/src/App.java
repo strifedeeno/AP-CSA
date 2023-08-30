@@ -7,7 +7,9 @@ public class App {
             for(int b = 9; b>x+1;b--){
                 System.out.print("+");
             }
-            
+            for(int c =2;c<x+2;c++){
+                System.out.print();
+            }
             
         }
     }
