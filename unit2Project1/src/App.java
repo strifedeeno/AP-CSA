@@ -5,6 +5,7 @@ public class App {
        bracketQuoteThing();
        for(int i=2;i<4*NUM_LEVELS;i++){
         System.out.print("\\");
+        System.out.println();
        }
        middleThing();
        bracketQuoteThing();
