@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         for(int i =1;i<7;i++){
-            for(int y=i;y>0;y--){
+            for(int y=6-i;y>0;y--){
                 System.out.print("*");
             }
             for(int j=0; j<i; j++){
