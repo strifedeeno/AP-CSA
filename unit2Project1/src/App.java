@@ -3,6 +3,7 @@ public class App {
     public static void main(String[] args) throws Exception {
        System.out.println("Main");
        bracketQuoteThing();
+       middleThing();
     }
     public static void bracketQuoteThing(){
         System.out.println(" |\" \" \" \" \" \" \" \" \" \" |");
