@@ -8,6 +8,7 @@ public class App {
         for(int j=2;j<2*NUM_LEVELS;j++){
             System.out.print("*");
         }
+        System.out.println();
        }
        middleThing();
        bracketQuoteThing();
