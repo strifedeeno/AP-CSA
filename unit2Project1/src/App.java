@@ -4,6 +4,7 @@ public class App {
        System.out.println("Main");
        bracketQuoteThing();
        middleThing();
+       bracketQuoteThing();
     }
     public static void bracketQuoteThing(){
         System.out.println(" |\" \" \" \" \" \" \" \" \" \" |");
