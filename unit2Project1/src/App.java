@@ -5,6 +5,6 @@ public class App {
        bracketQuoteThing();
     }
     public static void bracketQuoteThing(){
-        System.out.println("|\" \" \"\"\"\"\"\"\"\"|");
+        System.out.println("|\" \" \" \" \" \" \" \" \" \"|");
     }
 }
