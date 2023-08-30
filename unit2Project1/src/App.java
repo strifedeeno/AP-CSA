@@ -3,6 +3,9 @@ public class App {
     public static void main(String[] args) throws Exception {
        System.out.println("Main");
        bracketQuoteThing();
+       for(int i=2;i<4*NUM_LEVELS;i++){
+
+       }
        middleThing();
        bracketQuoteThing();
     }
