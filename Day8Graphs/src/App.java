@@ -10,7 +10,7 @@ public class App {
             for(int c =2;c<x+2;c++){
                 System.out.print("&");
             }
-            
+            System.out.println();
             
         }
     }
