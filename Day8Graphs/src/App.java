@@ -8,6 +8,7 @@ public class App {
                 System.out.print(i);
             }
             System.out.println();
+            System.out.printf("hello\s" );
         }
     }
 }
