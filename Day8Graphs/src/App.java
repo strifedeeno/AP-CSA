@@ -5,7 +5,7 @@ public class App {
                 System.out.print("=");
             }
             for(int b = 9; b>x+1;b--){
-                System.out.println();
+                System.out.print("");
             }
             
         }
