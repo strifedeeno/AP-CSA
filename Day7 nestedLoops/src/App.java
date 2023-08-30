@@ -12,13 +12,23 @@ public class App {
         System.out.println("b is " + b);
     }
     public static void anotherFancyMethod() {
-        /*int a = 1;
+        //start
+        int a = 1;
         for (int i = 0; i < 3; i++) {
             int e = 42;
             System.out.println("e is " + e);
         }
         System.out.println("a is " + a);
-     */   
+     
     }
-    
+    //end
+    /*Output:
+    d is 7
+    c is 10
+    e is 42
+    e is 42
+    e is 42
+    a is 1
+    b is 100
+     */
 }
