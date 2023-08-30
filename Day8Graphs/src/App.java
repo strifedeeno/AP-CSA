@@ -8,8 +8,9 @@ public class App {
                 System.out.print("+");
             }
             for(int c =2;c<x+2;c++){
-                System.out.print("");
+                System.out.print("&");
             }
+            
             
         }
     }
