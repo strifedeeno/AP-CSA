@@ -6,7 +6,7 @@ public class App {
        System.out.println("Main");
        bracketQuoteThing();
        for(int i=NUM_LEVELS;i>0;i--){
-        
+        for(int x=lengthOfthing;lengthOfthing>=0;lengthOfthing--)
         System.out.print("\\");
         for(int j=0;j<i;j++){
             System.out.print("::");
