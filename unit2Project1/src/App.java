@@ -11,7 +11,7 @@ public class App {
         System.out.println(" /");
        }
        middleThing();
-       for(int i=0;i<NUM_LEVELS;i++){
+       for(int i=1;i<NUM_LEVELS;i++){
         System.out.print("\\");
         for(int j=0;j<i;j++){
             System.out.print(" : :");
