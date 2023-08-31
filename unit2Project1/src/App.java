@@ -7,7 +7,7 @@ public class App {
        bracketQuoteThing();
        for(int i=NUM_LEVELS;i>0;i--){
         for(int x=lengthOfthing;x>=0;x--){
-            System.out.print();
+            System.out.print(" ");
         }
         System.out.print("\\");
         for(int j=0;j<i;j++){
