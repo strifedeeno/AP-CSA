@@ -6,7 +6,7 @@ public class App {
        for(int i=0;i<NUM_LEVELS;i++){
         System.out.print("\\\\");
         for(int j=0;j<i;j++){
-            System.out.print("**");
+            System.out.print("::");
         }
         System.out.println();
        }
