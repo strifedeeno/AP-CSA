@@ -3,7 +3,7 @@ public class App {
     public static void main(String[] args) throws Exception {
        System.out.println("Main");
        bracketQuoteThing();
-       for(int i=1;i<NUM_LEVELS;i++){
+       for(int i=NUM_LEVELS;i>0;i--){
         System.out.print("\\");
         for(int j=0;j<i;j++){
             System.out.print(" : :");
