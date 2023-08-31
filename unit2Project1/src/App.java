@@ -12,18 +12,18 @@ public class App {
        }
        middleThing();
        for(int i=1;i<NUM_LEVELS;i++){
-        System.out.print("\\");
+        System.out.print("/");
         for(int j=0;j<i;j++){
             System.out.print("::");
         }
-        System.out.println("/");
+        System.out.println("\\");
        }
        bracketQuoteThing();
     }
     public static void bracketQuoteThing(){
         System.out.print("|");
         for(int quotes= 0; quotes<NUM_LEVELS*2;quotes++){
-            System.out.print("/");
+            System.out.print("\"");
         }
         System.out.print("|");
     }
