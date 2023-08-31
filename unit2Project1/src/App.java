@@ -26,6 +26,7 @@ public class App {
             System.out.print("\"");
         }
         System.out.print("|");
+        
     }
     public static void middleThing(){
         System.out.println("||");
