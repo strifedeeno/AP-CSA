@@ -3,9 +3,9 @@ public class App {
     public static void main(String[] args) throws Exception {
        System.out.println("Main");
        bracketQuoteThing();
-       for(int i=0;i<NUM_LEVELS;i++){
+       for(int i=2;i<NUM_LEVELS;i++){
         System.out.print("\\\\");
-        for(int j=2;j<i;j++){
+        for(int j=0;j<i;j++){
             System.out.print(" : :");
         }
         System.out.println(" //");
