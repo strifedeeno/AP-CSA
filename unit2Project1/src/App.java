@@ -1,7 +1,7 @@
 public class App {
     public static int NUM_LEVELS=5;
     public static void main(String[] args) throws Exception {
-        
+        int lengthOfthing = NUM_LEVELS*2+2;
        System.out.println("Main");
        bracketQuoteThing();
        for(int i=NUM_LEVELS;i>0;i--){
