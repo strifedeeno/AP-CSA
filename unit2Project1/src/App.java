@@ -4,7 +4,7 @@ public class App {
        System.out.println("Main");
        bracketQuoteThing();
        for(int i=1;i<NUM_LEVELS;i++){
-        System.out.print("\\\\");
+        System.out.print("\\");
         for(int j=0;j<i;j++){
             System.out.print(" : :");
         }
