@@ -11,6 +11,13 @@ public class App {
         System.out.println(" /");
        }
        middleThing();
+       for(int i=NUM_LEVELS;i>0;i--){
+        System.out.print("\\");
+        for(int j=0;j<i;j++){
+            System.out.print(" : :");
+        }
+        System.out.println(" /");
+       }
        bracketQuoteThing();
     }
     public static void bracketQuoteThing(){
