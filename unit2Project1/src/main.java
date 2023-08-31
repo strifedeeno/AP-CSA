@@ -1,6 +1,6 @@
 class Main {
   // Global variable Num_levels //
-  public static int NUM_LEVELS=4;
+  public static int NUM_LEVELS=10;
   // main method//
   public static void main(String[] args) {
     //calls top, middle, and bottom methods//
