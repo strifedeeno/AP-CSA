@@ -23,7 +23,7 @@ public class App {
     public static void bracketQuoteThing(){
         System.out.print("|");
         for(int quotes= 0; quotes<NUM_LEVELS*2;quotes++){
-            System.out.print("\" ");
+            System.out.print(" \" ");
         }
         System.out.print("|");
     }
