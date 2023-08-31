@@ -1,11 +1,3 @@
 {
-    "gitdoc.autoCommitDelay": 200,
-    "gitdoc.autoPullDelay": 10000,
-    "gitdoc.autoPushDelay": 500,
-    "gitdoc.commitMessageFormat": "ffff",
-    "java.debug.settings.onBuildFailureProceed": true,
-    "gitdoc.enabled": true,
-    "files.autoSaveDelay": 1,
-    "files.autoSave": "afterDelay",
-    "gitdoc.timeZone": "America\\Los_Angeles"
+    "gitdoc.enabled": true
 }
