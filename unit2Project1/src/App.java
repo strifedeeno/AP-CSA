@@ -1,5 +1,5 @@
 public class App {
-    public static int NUM_LEVELS=200;
+    public static int NUM_LEVELS=20;
     public static void main(String[] args) throws Exception {
         int lengthOfthing = NUM_LEVELS*2;
        bracketQuoteThing();
