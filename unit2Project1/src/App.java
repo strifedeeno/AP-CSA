@@ -21,7 +21,7 @@ public class App {
        bracketQuoteThing();
     }
     public static void bracketQuoteThing(){
-        System.out.print("| ");
+        System.out.print("|");
         for(int quotes= 0; quotes<NUM_LEVELS*2;quotes++){
             System.out.print("\"");
         }
