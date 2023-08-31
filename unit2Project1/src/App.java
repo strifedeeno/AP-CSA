@@ -21,6 +21,7 @@ public class App {
        bracketQuoteThing();
     }
     public static void bracketQuoteThing(){
+        for(int quotes= NUM_LEVELS; quotes<NUM_LEVELS;)
         System.out.println("|\" \" \" \" \" \" \" \" \" \" |");
     }
     public static void middleThing(){
