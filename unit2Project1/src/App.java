@@ -17,6 +17,9 @@ public class App {
        }
        middleThing();
        for(int i=1;i<NUM_LEVELS;i++){
+         for(int x=lengthOfthing-1;0<=x-i*2;x-=2){
+            System.out.print(" ");
+        }
         System.out.print("/");
         for(int j=0;j<i;j++){
             System.out.print("::");
