@@ -1,4 +1,4 @@
-public class App {
+public class Hourglass {
     public static int NUM_LEVELS=5;
     public static void main(String[] args) throws Exception {
         int lengthOfthing = NUM_LEVELS*2;
