@@ -13,6 +13,7 @@ public class App {
         }
         System.out.println("/");
        }
+       
        middleThing();
        for(int i=1;i<=NUM_LEVELS;i++){
          for(int x=lengthOfthing;0<=x-i*2;x-=2){
