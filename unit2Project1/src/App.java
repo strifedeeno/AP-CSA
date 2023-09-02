@@ -39,6 +39,6 @@ public class App {
             System.out.print(" ");
         }
         System.out.println("||");
-        \
+        /* */
     }
 }
