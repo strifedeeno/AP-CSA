@@ -38,5 +38,6 @@ public class App {
          for(int x=NUM_LEVELS;x>=0;x--){
             System.out.print("");
         }
+        
     }
 }
