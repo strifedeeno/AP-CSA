@@ -1,5 +1,5 @@
 public class App {
-    public static int NUM_LEVELS=5;
+    public static int NUM_LEVELS=20;
     public static void main(String[] args) throws Exception {
         int lengthOfthing = NUM_LEVELS*2;
        bracketQuoteThing();
@@ -13,7 +13,6 @@ public class App {
         }
         System.out.println("/");
        }
-       System.out.println();
        middleThing();
        for(int i=1;i<=NUM_LEVELS;i++){
          for(int x=lengthOfthing;0<=x-i*2;x-=2){
@@ -37,8 +36,8 @@ public class App {
     }
     public static void middleThing(){
          for(int x=NUM_LEVELS;x>=0;x--){
-            System.out.print("");
+            System.out.print(" ");
         }
-        System.out.print("| |");
+        System.out.println("||");
     }
 }
