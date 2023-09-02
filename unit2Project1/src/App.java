@@ -12,6 +12,7 @@ public class App {
             System.out.print("::");
         }
         System.out.println("/");
+        System.out.println();
        }
        middleThing();
        for(int i=1;i<=NUM_LEVELS;i++){
