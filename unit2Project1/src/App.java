@@ -35,7 +35,7 @@ public class App {
         System.out.println();
     }
     public static void middleThing(){
-         for(int x=NUM_LEVELS;x>=2;x--){
+         for(int x=NUM_LEVELS;x>=5;x--){
             System.out.print(" ");
         }
     }
