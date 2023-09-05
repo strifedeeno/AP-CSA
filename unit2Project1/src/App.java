@@ -7,7 +7,7 @@ public class App {
         int lengthOfthing = NUM_LEVELS*2;
        bracketQuoteThing();
        for(int i=NUM_LEVELS;i>0;i--){
-        for(int x=lengthOfthing;0<=x-i*2;x-=2){
+        for(int x=lengthOfthing;0<=x-i*2;x-=2)
             System.out.print(" ");
         }
         System.out.print("\\");
