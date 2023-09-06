@@ -4,7 +4,7 @@ public class App {
             for(int y=6;y>=0;y--){
                 if (x==0 || x == 2 || x==4){
                 
-            }
+                }
         }
         }
     }
