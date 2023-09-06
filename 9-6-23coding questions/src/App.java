@@ -10,7 +10,7 @@ public class App {
                 }
                 if(x==1||x==3||x==5){
                     for(int z=y;z>0;z--){
-                        System.out.print(y);
+                        System.out.print("**");
                     }
                     System.out.println();
                 }
