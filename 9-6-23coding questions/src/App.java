@@ -8,7 +8,8 @@ public class App {
                     }
                     System.out.println();
                 }
-                
+                if(x==1||x==3||x==5)
+                {}
                 
         }
         }
