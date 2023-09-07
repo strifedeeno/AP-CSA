@@ -19,7 +19,7 @@ public class App {
         System.out.println();
         System.out.println();
         for(int i=0;i<4;i++){
-            for(int j=0;j<i+2;j+=2){
+            for(int j=0;j<i+10;j+=2){
                 System.out.print("*");
             }
             System.out.println();
