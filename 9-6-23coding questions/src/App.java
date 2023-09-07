@@ -6,8 +6,9 @@ public class App {
                     for(int z=x+1;z>0;z--){
                         System.out.print(x);
                     }
-                    System.out.println();
+                    
                 }
+                System.out.println();
                 if(x==1||x==3||x==5){
                     for(int z=x;z>0;z--){
                         System.out.print("*");
