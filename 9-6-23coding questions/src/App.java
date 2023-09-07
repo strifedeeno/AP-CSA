@@ -12,7 +12,6 @@ public class App {
                 for(int z=6-number;z>0;z--){
                     System.out.print("*");
                 }
-    
             }
         }
         for(int x = 0;x<8;x++){
