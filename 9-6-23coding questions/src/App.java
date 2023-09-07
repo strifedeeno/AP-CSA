@@ -26,13 +26,7 @@ public class App {
                 System.out.print("*");
             }
             System.out.println();
-            for(int k=(7-i)/2;k<0;k++){
-                System.out.print(" ");
-            }
-            for(int x=i;x>0;x--){
-                System.out.print("*");
-            }
-            System.out.println();
         }
+        
     }
 }
