@@ -19,11 +19,7 @@ public class App {
         System.out.println();
         System.out.println();
         for(int x = -1;x<7;x++){
-            int number = x+2;
-            for(int z=number;z<7;z+=2){
-                System.out.print("*");
-            }
-            System.out.println();
+            
         }
     }
 }
