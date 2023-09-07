@@ -12,8 +12,8 @@ public class App {
                 for(int z=6-number;z>0;z--){
                     System.out.print("*");
                 }
+
             }
-            System.out.println();
         }
         for(int x = 0;x<8;x++){
             int number = x+ 1;
