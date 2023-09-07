@@ -18,7 +18,7 @@ public class App {
         System.out.println();
         System.out.println();
         System.out.println();
-        for(int y=1;y<5;y++){
+        for(int y=0;y<5;y++){
             for(int x = 1;x<4;x++){
                 System.out.print("*");
             }
