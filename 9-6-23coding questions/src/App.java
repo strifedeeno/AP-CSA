@@ -23,7 +23,7 @@ public class App {
                 System.out.print(" ");
             }
             for(int x=0;x<i;x++){
-                System.out.print("*");
+                System.out.print("*")
             }
             System.out.println();
         }
