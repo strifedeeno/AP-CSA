@@ -32,6 +32,7 @@ public class App {
             for(int x=i;x>0;x--){
                 System.out.print("*");
             }
+            System.out.println();
         }
     }
 }
