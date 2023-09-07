@@ -3,8 +3,9 @@ public class App {
         for(int x=0;x<=10;x++){
             int number=x;
             if (x==0 || x == 2 || x==4){
-                for(int z=6-x;z>0;z--){System.out.print(6-number);
-                    }
+                for(int z=6-x;z>0;z--){
+                    System.out.print(6-number);
+                }
                     
                 }
                 System.out.println();
