@@ -29,7 +29,7 @@ public class App {
             for(int k=0;k<(7-i)/2;k++){
                 System.out.print(" ");
             }
-            for(int x=i;x>0;x){
+            for(int x=i;x>0;x--){
                 System.out.print("*");
             }
         }
