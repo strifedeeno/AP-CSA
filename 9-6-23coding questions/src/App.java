@@ -8,7 +8,6 @@ public class App {
                     }
                     
                 }
-                System.out.println();
                 if(x==1||x==3||x==5){
                     for(int z=x;z>0;z--){
                         System.out.print("*");
