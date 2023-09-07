@@ -18,7 +18,7 @@ public class App {
         System.out.println();
         System.out.println();
         System.out.println();
-        for(int x = 1;x<;x+=2){
+        for(int x = 1;x<4;x+=2){
             System.out.print("*");
         }
         System.out.println();
