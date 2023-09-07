@@ -18,11 +18,8 @@ public class App {
         System.out.println();
         System.out.println();
         System.out.println();
-        for(int y=0;y<4;y++){
-            for(int x = 3;x<1;x++){
-                System.out.print("*");
-            }
-            System.out.println();
+        for(int j=0;j<5;j++){
+            System.out.print("::");
         }
     }
 }
