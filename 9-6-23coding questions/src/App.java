@@ -4,7 +4,7 @@ public class App {
             int number=x;
                 if (x==0 || x == 2 || x==4){
                     for(int z=6-x;z>0;z--){
-                        System.out.print(number);
+                        System.out.print(6-number);
                     }
                     
                 }
