@@ -20,7 +20,7 @@ public class App {
         System.out.println();
         for(int x = 1;x<7;x+=2){
             System.out.print("*");
-            
         }
+        System.out.println();
     }
 }
