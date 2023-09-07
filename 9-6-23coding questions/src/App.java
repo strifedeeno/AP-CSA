@@ -13,8 +13,8 @@ public class App {
                     for(int z=6-number;z>0;z--){
                         System.out.print("*");
                     }
-                    System.out.println();
-                }
+                System.out.println();
+            }
                 
             
         }
