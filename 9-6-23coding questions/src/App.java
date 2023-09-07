@@ -27,7 +27,7 @@ public class App {
             }
             System.out.println();
         }
-        for(int i =3 ;i>0;i-=2){
+        for(int i =5 ;i>0;i-=2){
             for(int k=0;k<(7-i)/2;k++){
                 System.out.print(" ");
             }
