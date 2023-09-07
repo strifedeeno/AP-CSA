@@ -18,6 +18,7 @@ public class App {
         System.out.println();
         System.out.println();
         System.out.println();
+        
         for(int j=0;j<2;j++){
             System.out.print("*");
         }
