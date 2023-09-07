@@ -20,8 +20,9 @@ public class App {
         System.out.println();
         for(int i=1;i<7;i+=2){
             for(int k=0;k<(7-i)/2;k++){
-                System.out.println();
+                System.out.print(" ");
             }
+            
         }
     }
 }
