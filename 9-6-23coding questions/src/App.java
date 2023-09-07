@@ -25,6 +25,7 @@ public class App {
             for(int x=0;x<i;x++){
                 System.out.print("*");
             }
+            System.out.println();
         }
     }
 }
