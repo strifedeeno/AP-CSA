@@ -8,7 +8,7 @@ public class App {
                 }    
             }
             System.out.println();
-                if(x==1||x==3||x==5){
+            if(x==1||x==3||x==5){
                     for(int z=6-number;z>0;z--){
                         System.out.print("*");
                     }
