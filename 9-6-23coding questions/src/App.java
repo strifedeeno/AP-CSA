@@ -19,7 +19,7 @@ public class App {
         System.out.println();
         System.out.println();
         for(int j=0;j<5;j++){
-            System.out.print("::");
+            System.out.print("*");
         }
     }
 }
