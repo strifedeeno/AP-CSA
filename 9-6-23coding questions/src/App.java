@@ -18,10 +18,11 @@ public class App {
         System.out.println();
         System.out.println();
         System.out.println();
-        for(int y=1;y<7;y)
+        for(int y=1;y<7;y++){
         for(int x = 1;x<4;x++){
             System.out.print("*");
         }
         System.out.println();
+    }
     }
 }
