@@ -15,6 +15,8 @@ public class App {
                 System.out.println();
             }
         }
-        for(int x = 0;x<8;x++){}
+        for(int x = 0;x<8;x++){
+            
+        }
     }
 }
