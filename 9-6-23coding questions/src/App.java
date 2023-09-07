@@ -28,10 +28,10 @@ public class App {
             System.out.println();
         }
         for(int i =5 ;i>0;i--){
-            for(int k=(5-i)/2;k<0;k++){
+            for(int k=0;k<(5-i)/2;k++){
                 System.out.print(" ");
             }
-            for(int x=i;x>0;x--){
+            for(int x=0;x<i;x++){
                 System.out.print("*");
             }
             System.out.println();
