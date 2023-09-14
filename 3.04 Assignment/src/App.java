@@ -15,7 +15,7 @@ public class App {
         System.out.println(distance1);
         double distance2= distance(6.0,19.0,22.0,7.0);
         System.out.println(distance2);
-        double distance3= distance(25.0,24.0,.0,8.0);
+        double distance3= distance(25.0,24.0,1.0,8.0);
         System.out.println(distance3);
     }
 }
