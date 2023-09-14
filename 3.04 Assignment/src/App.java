@@ -23,6 +23,6 @@ public class App {
         System.out.println(distance2);
         double distance3= distance(25.0,24.0,16.0,14.0);
         System.out.println(distance3);
-        
+        double totalDistance= totalTrip(29.0,16.0,34.0,8.0,6.0,19.0);
     }
 }
