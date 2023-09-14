@@ -13,7 +13,7 @@ public class App {
         roadTrip(3.0);
         double distance1= distance(29.0,16.0,34.0,8.0);
         System.out.println(distance1);
-        double distance2= distance(29.0,16.0,34.0,8.0);
+        double distance2= distance(6.0,1.0,34.0,8.0);
         System.out.println(distance2);
     }
 }
