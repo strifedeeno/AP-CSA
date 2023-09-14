@@ -8,6 +8,12 @@ public class App {
         Double distance = Math.sqrt((Math.pow(x2-x1, 2))+(Math.pow(y2-y1, 2)));
         return distance;
     }
+    public static Double totalTrip(Double x1,Double y1, Double x2, Double y2, Double x3, Double y3){
+        double distance1= distance(x1,y1,x2,y2);
+        double distance2= distance(x2,y2,x3,y3);
+        double totaltrip= distance1+ distance2;
+        return totaltrip;
+    }
     
     public static void main(String[] args) throws Exception {
         roadTrip(3.0);
@@ -18,6 +24,6 @@ public class App {
         double distance3= distance(25.0,24.0,16.0,14.0);
         System.out.println(distance3);
 
-        
+
     }
 }
