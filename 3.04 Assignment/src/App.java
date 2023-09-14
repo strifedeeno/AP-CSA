@@ -11,6 +11,7 @@ public class App {
     public static Double totalTrip(Double x1,Double y1, Double x2, Double y2, Double x3, Double y3){
         double distance1= distance(x1,y1,x2,y2);
         double distance2= distance(x2,y2,x3,y3);
+        double distance3= distance(x3,y3,x1,y1);
         double totaltrip= distance1+ distance2;
         return totaltrip;
     }
