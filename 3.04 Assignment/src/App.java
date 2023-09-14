@@ -11,7 +11,7 @@ public class App {
     
     public static void main(String[] args) throws Exception {
         roadTrip(3.0);
-        distance(29.0,16.0,34.0,8.0);
-        System.out.println();
+        double distance= distance(29.0,16.0,34.0,8.0);
+        System.out.println(distance);
     }
 }
