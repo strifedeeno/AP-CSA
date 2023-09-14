@@ -5,7 +5,7 @@ public class App {
         System.out.println(area);
     }
     public static void distance(Double x1,Double y1, Double x2, Double y2){
-        Double distance = Math.sqrt((x2-x1));
+        Double distance = Math.sqrt((Math.pow(x2-x1, 2)));
     }
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
