@@ -1,6 +1,6 @@
 import java.lang.Math;
 public class App {
-    public static void roadTrip(int diameter){
+    public static void roadTrip(d diameter){
         double area= diameter * Math.PI;
         System.out.println(area);
     }
