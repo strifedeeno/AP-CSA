@@ -25,6 +25,6 @@ public class App {
         double distance3= distance(25.0,24.0,16.0,14.0);
         System.out.println("Distance 3: "+ distance3);
         double totalDistance= totalTrip(29.0,16.0,34.0,8.0,6.0,19.0);
-        System.out.println("Total Distance between Ba: "+ totalDistance);
+        System.out.println("Total Distance between Ba;l: "+ totalDistance);
     }
 }
