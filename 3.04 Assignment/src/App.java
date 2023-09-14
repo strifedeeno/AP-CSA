@@ -1,6 +1,6 @@
 import java.lang.Math;
 public class App {
-    public static void roadTrip(d diameter){
+    public static void roadTrip(Double diameter){
         double area= diameter * Math.PI;
         System.out.println(area);
     }
@@ -10,7 +10,7 @@ public class App {
     }
     
     public static void main(String[] args) throws Exception {
-        roadTrip(3);
-
+        roadTrip(3.0);
+        
     }
 }
