@@ -23,7 +23,6 @@ public class App {
         System.out.println(distance2);
         double distance3= distance(25.0,24.0,16.0,14.0);
         System.out.println(distance3);
-
-
+        
     }
 }
