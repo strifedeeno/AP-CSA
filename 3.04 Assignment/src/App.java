@@ -8,6 +8,7 @@ public class App {
         Double distance = Math.sqrt((Math.pow(x2-x1, 2))+(Math.pow(y2-y1, 2)));
         return distance;
     }
+    
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
     }
