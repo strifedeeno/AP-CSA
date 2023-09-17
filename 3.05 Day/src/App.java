@@ -11,4 +11,4 @@ for(int x=5;x<12;x+=5){
    }
 System.out.print(z+a);
     }
-}
+
