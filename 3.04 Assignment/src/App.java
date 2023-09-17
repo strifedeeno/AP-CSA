@@ -26,5 +26,6 @@ public class App {
         System.out.println("Distance 3: "+ distance3);
         double totalDistance= totalTrip(29.0,16.0,34.0,8.0,6.0,19.0);
         System.out.print("Total Distance between Baltimare, Manehattan, Los Pegasus: "+ totalDistance);
+        System.out.println("test");
     }
 }
