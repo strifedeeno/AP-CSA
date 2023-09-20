@@ -10,4 +10,5 @@ public class App {
             System.out.print(charecter3.toLowerCase());
             System.out.println();
         }
+    
 }
