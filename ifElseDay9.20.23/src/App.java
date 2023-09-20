@@ -4,6 +4,6 @@ public class App {
         Scanner console = new Scanner(System.in);
         System.out.print("What grade did you earn : ");
         double grade = console.nextDouble();
-        
+        ig
     }
 }
