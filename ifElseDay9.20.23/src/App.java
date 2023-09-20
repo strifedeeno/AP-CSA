@@ -1,16 +1,15 @@
 import java.util.*;
 public class App {
     public static void main(String[] args) throws Exception {
-        extraStart("Howdy Partner");
-        extraStart("ABC");
-        extraStart("Hi Mom");
+        System.out.println("exercise 1 - extraStart");
+        System.out.println(extraStart("Kathy"));
+        System.out.println(extraStart("123"));
+        System.out.println(extraStart("GRAPE"));
+        System.out.println();
     }
-    public static void extraStart(String sentence){
+    public static String extraStart(String sentence){
             String charecter3= sentence.substring(0,3);
-            System.out.print(charecter3);
-            System.out.print(charecter3.toUpperCase());
-            System.out.print(charecter3.toLowerCase());
-            System.out.println();
+            return charecter3+charecter3.toUpperCase()+charecter3.toLowerCase();
     }
     
 }
