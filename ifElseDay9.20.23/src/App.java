@@ -18,7 +18,7 @@ public class App {
     }
     public static String nFromTheMiddle(String input,int number){
         if(input.length()>=2){
-            String subStr= input.substring(number);
+            String subStr= input.substring(number+1);
             return subStr;
         }
         else{
