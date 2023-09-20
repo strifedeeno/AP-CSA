@@ -1,7 +1,7 @@
 import java.util.*;
 public class App {
     public static void main(String[] args) throws Exception {
-        extraStart("hello");
+        extraStart("Howdy Partner");
     }
     public static void extraStart(String sentence){
             String charecter3= sentence.substring(0,3);
