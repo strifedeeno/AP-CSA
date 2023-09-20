@@ -5,6 +5,7 @@ public class App {
     }
     public static void extraStart(String sentence){
             String charecter3= sentence.substring(0,3);
-            System.out.println(charecter3);
+            System.out.print(charecter3);
+            System.out.println();
         }
 }
