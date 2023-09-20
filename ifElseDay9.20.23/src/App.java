@@ -25,4 +25,4 @@ public class App {
             return "The input is less than 2 charecters.";
         }
     }
-    }
+}
