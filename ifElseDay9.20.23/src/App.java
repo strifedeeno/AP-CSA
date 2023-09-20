@@ -11,7 +11,7 @@ public class App {
             String charecter3= sentence.substring(0,3);
             return charecter3+charecter3.toUpperCase()+charecter3.toLowerCase();
     }
-    public static String nFromT(String sentence){
+    public static String nFromThe(String sentence){
             String charecter3= sentence.substring(0,3);
             return charecter3+charecter3.toUpperCase()+charecter3.toLowerCase();
     }
