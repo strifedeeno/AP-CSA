@@ -17,12 +17,6 @@ public class App {
             return charecter3+charecter3.toUpperCase()+charecter3.toLowerCase();
     }
     public static String nFromTheMiddle(String input,int number){
-        if(input.length()>=2 && 1<=number && number<=(input.length()/2)){
-            String subStr= input.substring(number, input.length());
-            return subStr;
-        }
-        else{
-            return "The input is less than 2 charecters.";
-        }
+        
     }
 }
