@@ -18,5 +18,6 @@ public class App {
     }
     public static String nFromTheMiddle(String input,int number){
         
+        return null;
     }
 }
