@@ -17,7 +17,7 @@ public class App {
             return charecter3+charecter3.toUpperCase()+charecter3.toLowerCase();
     }
     public static String nFromTheMiddle(String input,int number){
-        if 
+        if(input.length()>=2){}
         return null;
     }
 }
