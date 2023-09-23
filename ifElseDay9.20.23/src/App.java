@@ -49,8 +49,6 @@ public class App {
                         return "something weird happened1";
                     }
 
-                } else {
-                    return "something weird happened";
                 }
             }
         } else {
