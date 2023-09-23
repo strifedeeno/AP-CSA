@@ -18,7 +18,7 @@ public class App {
     }
     public static String nFromTheMiddle(String input, int number) {
         if (input.length() >= 2 && number >= 0 && number < input.length()) {
-            int middleIndex = (input.length() - 1) / 2; // Calculate the middle index
+            int middleIndex = (input.length() - 1) / 2;
         int startIndex = middleIndex - (number - 1);
         
         if (startIndex < 0 || startIndex + 3 > input.length()) {
