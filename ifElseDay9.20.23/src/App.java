@@ -96,16 +96,7 @@ System.out.println();
         return "This is a string";
     }
     public static String codeMaker(String input){
-        char temp;
-        temp = input.charAt(0);
-        char temp2;
-        temp2 = input.charAt(input.length()-1);
-        input=input.substring(0,input.length()-1);
-       // String newString = input.substring(1,3)+temp2+input.substring(3,4)+temp+input.substring(4,input.length()-1)+"a"+input.substring(input.length())+"y";
-       String newString = input.substring(1, 3) + input.charAt(input.length() - 1) + input.charAt(0) + input.substring(3, input.length() - 1) + "a" + input.charAt(input.length() - 1) + "y";
-
-
-
+        String newString = input.substring(1, 3) + input.charAt(input.length() - 1) + input.charAt(0) + input.substring(3, input.length() - 1) + "a" + input.charAt(input.length() - 1) + "y";
         return newString;
     }
 
