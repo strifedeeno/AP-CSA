@@ -17,7 +17,15 @@ public class App {
         System.out.println(thirdWord("123 456 789 0"));
         System.out.println(thirdWord("Aaaaa very short word"));
         System.out.println();
-        
+        System.out.println("exercise 4 - shrink");
+
+System.out.println(shrink("I hate hot weather."));
+
+System.out.println(shrink("I want to take a walk."));
+
+System.out.println(shrink("I love Java."));
+
+System.out.println();
     }
 
     public static String extraStart(String sentence) {
