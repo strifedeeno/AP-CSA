@@ -33,8 +33,23 @@ public class App {
         int spaces=0;
         int substringbeginning=0;
         String finalstring="String";
-        if(spaces<=2){
-            return null;
+        if(spaces==0){
+            for(int i=0; i<input.length();i++){
+            if(input.charAt(i)==' '){
+                spaces++;
+                if(spaces==3){
+                substringbeginning=i;
+            }
+            if(spaces==4){
+                finalstring =input.substring(substringbeginning,i);
+                return finalstring;
+            }
+
+            }
+            else{
+                return"something weird happened";
+            }
+        }
         }
         else{
             return "There are less then three words";
