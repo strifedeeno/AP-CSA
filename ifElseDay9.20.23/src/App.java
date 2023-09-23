@@ -32,7 +32,7 @@ public class App {
     public static String thirdWord(String input){
         int spaces=0;
         int substringbeginning=0;
-        for(int i =0; i<input.length();i++){
+        for(int i=0; i<input.length();i++){
             if(input.charAt(i)==' '){
                 spaces++;
             }
