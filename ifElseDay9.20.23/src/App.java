@@ -14,8 +14,7 @@ public class App {
         System.out.println("exercise 3 - thirdWord");
         System.out.println(thirdWord("I don’t like May"));
         System.out.println(thirdWord("123 456 789 0"));
-
-System.out.println(thirdWord("Aaaaa very short word"));
+        System.out.println(thirdWord("Aaaaa very short word"));
 
 System.out.println();
     }
