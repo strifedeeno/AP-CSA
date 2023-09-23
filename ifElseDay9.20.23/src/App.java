@@ -18,11 +18,9 @@ public class App {
     }
     public static String nFromTheMiddle(String input, int number) {
         if (input.length() >= 2 && number >= 0 && number < input.length()) {
-            int middle = input.length() / 2;
-            int start = middle - number;
-            int end = start + number * 2;
-            return input.substring(start, end);
-        } else {
+        return input.substring(number, number + 2);
+        }
+        else{
             return "invalid input";
         }
     }
