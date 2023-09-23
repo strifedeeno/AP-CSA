@@ -101,10 +101,10 @@ System.out.println();
 
         // Move the last letter between the original 2nd and 3rd letter.
         input = input.substring(0, input.length() - 1) + input.charAt(input.length() - 1) + input.charAt(input.length() - 2);
-      
+    
         // Add an “a” after the original 4th letter.
         input = input.substring(0, 4) + "a" + input.substring(4);
-      
+    
         // End the word with a “y”
         input = input + "y";
         return input;
