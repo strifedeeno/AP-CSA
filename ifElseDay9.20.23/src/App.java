@@ -112,7 +112,7 @@ public class App {
             return newinput[1] + newinput[input.length() - 1] + newinput[2] + newinput[0] + newinput[3] + "a" + newinput[4];
         } else {
             return newinput[1] + newinput[input.length() - 1] + newinput[2] + newinput[0] + newinput[3] + "a"
-     + newinput[4] + "y";
+ + newinput[4] + "y";
         }
 
     }
