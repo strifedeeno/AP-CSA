@@ -41,7 +41,7 @@ public class App {
                 spaces++;
                 if (spaces == 2) {
                     substringbeginning = i + 1; // add 1 to skip the space
-                } else if (spaces == 3|| (spaces == 3 && i == input.length() - 1)) {
+                } else if (spaces == 3) {
                     finalstring = input.substring(substringbeginning, i);
                     return finalstring;
                 }
