@@ -36,18 +36,18 @@ public class App {
         int spaces = 0;
         int substringbeginning = 0;
         String finalstring = "String";
-            for (int i = 0; i < input.length(); i++) {
-                if (input.charAt(i) == ' ') {
-                    spaces++;
-                }
-                if (spaces == 3) {
-                    substringbeginning = i;
-                } else if (spaces == 4) {
-                    finalstring = input.substring(substringbeginning, i);
-                    return finalstring;
-                }
+        for (int i = 0; i < input.length(); i++) {
+            if (input.charAt(i) == ' ') {
+                spaces++;
             }
-            return ""; // default return statement
+            if (spaces == 3) {
+                substringbeginning = i;
+            } else if (spaces == 4) {
+                finalstring = input.substring(substringbeginning, i);
+                return finalstring;
+            }
         }
-        
+        return ""; // default return statement
     }
+
+}
