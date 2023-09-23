@@ -37,7 +37,7 @@ public class App {
         int substringbeginning = 0;
         String finalstring = "String";
         for (int i = 0; i < input.length(); i++) {
-            if (input.charAt(1) == ' ') {
+            if (input.charAt(i) == ' ') {
                 spaces++;
             }
             if (spaces == 3) {
