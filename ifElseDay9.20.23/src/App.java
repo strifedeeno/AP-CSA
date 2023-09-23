@@ -40,13 +40,12 @@ public class App {
             if (input.charAt(i) == ' ') {
                 spaces++;
                 if (spaces == 3) {
-                    substringbeginning = i;
-                } else if (spaces == 4) {
+                    substringbeginning = i + 1; // add 1 to skip the space
+                } else if (spaces == 4 || (spaces == 3 && i == input.length() - 1)) {
                     finalstring = input.substring(substringbeginning, i);
                     return finalstring;
                 }
             }
-
         }
         return ""; // default return statement
     }
