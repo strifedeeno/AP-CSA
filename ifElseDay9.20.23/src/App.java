@@ -121,7 +121,9 @@ public class App {
     public static String merge(String a, String b) {
         if(a.length()<b.length()){
             char thing = '-';
-            for
+            for(int i=0;i<b.length();i++){
+                
+            }
         }
         return null;
     }
