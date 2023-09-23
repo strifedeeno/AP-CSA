@@ -70,6 +70,7 @@ public class App {
         }
     }
     public static String generous(String input){
+        
         return "This is a string";
     }
 
