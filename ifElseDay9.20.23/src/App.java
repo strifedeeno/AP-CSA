@@ -69,6 +69,8 @@ public class App {
             return "Sentence does start with I";
         }
     }
-    
+    public static String generous(String input){
+        return "This is a string";
+    }
 
 }
