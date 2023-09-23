@@ -19,7 +19,10 @@ public class App {
     public static String nFromTheMiddle(String input,int number){
         if(input.length()>=2&& number>1&&number<input.length()-1){
             String middle=input.substring(number-1,number+2);
+            return middle;
         }
-        return null;
+        else{
+            return "invalid input";
+        }
     }
 }
