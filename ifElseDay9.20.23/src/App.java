@@ -36,7 +36,6 @@ public class App {
         int spaces = 0;
         int substringbeginning = 0;
         String finalstring = "String";
-        if (spaces == 0) {
             for (int i = 0; i < input.length(); i++) {
                 if (input.charAt(i) == ' ') {
                     spaces++;
@@ -48,7 +47,7 @@ public class App {
                     return finalstring;
                 }
             }
+            return ""; // default return statement
         }
-        return ""; // default return statement
+        
     }
-}
