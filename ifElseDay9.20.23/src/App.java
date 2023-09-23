@@ -97,6 +97,7 @@ System.out.println();
     }
     public static String codeMaker(String input) {
         String[] newinput=input.split("");
+        
         return null;
       }
 
