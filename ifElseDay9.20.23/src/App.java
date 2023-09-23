@@ -100,7 +100,7 @@ System.out.println();
         temp = input.charAt(0);
         char temp2;
         temp2 = input.charAt(input.length()-1);
-        String newString = input.substring(1,3)+temp2+input.substring(3,4)+temp+input.substring(4,5)+"a"+input.substring(5,input.len)+"y";
+        String newString = input.substring(1,3)+temp2+input.substring(3,4)+temp+input.substring(4,5)+"a"+input.substring(5,input.length())+"y";
 
         return newString+temp2;
     }
