@@ -22,7 +22,7 @@ public class App {
         int startIndex = middleIndex - (number - 1); // Calculate the start index of the substring
         
         if (startIndex < 0 || startIndex + 3 > input.length()) {
-            return "invalid input"; // Return "invalid input" if the calculated indices are out of bounds
+            return "invalid input"; 
         }
         
         String middle = input.substring(startIndex, startIndex + 3);
