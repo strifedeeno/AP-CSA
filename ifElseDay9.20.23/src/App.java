@@ -70,9 +70,11 @@ public class App {
         }
     }
     public static String generous(String input){
-
+        input=input.toLowerCase();
         int lastnum = input.indexOf("like");
-        if
+        if(input.charAt(0)=='i'){
+            
+        }
         return "This is a string";
     }
 
