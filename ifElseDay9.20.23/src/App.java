@@ -119,7 +119,9 @@ public class App {
     }
 
     public static String merge(String a, String b) {
-        
+        if(a.length()<b.length()){
+            
+        }
         return null;
     }
 }
