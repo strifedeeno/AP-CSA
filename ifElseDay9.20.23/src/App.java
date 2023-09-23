@@ -96,16 +96,11 @@ System.out.println();
         return "This is a string";
     }
     public static String codeMaker(String input){
-public static String codeMaker(String input) {
-    char firstChar = input.charAt(0);
-    char lastChar = input.charAt(input.length() - 1);
-    
-    String middleSection = input.substring(2, 3) + firstChar + input.substring(3, input.length() - 1) + "a";
-    String newString = input.substring(1, 2) + lastChar + middleSection + lastChar + "y";
-    
-    return newString;
-}
-
+        char temp = input.charAt(0);
+        char temp2 = input.charAt(input.length() - 1);
+        String newString = input.substring(1, 2) + temp2 + input.substring(2, 3) + temp + input.substring(3, input.length() - 1) + "a" + input.charAt(input.length() - 1) + "y";
+        
+        return newString;
     }
 
 }
