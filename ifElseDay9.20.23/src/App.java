@@ -96,15 +96,18 @@ System.out.println();
         return "This is a string";
     }
     public static String codeMaker(String input){
-        
-       
-        char firstChar = input.charAt(0);
-        char lastChar = input.charAt(input.length() - 1);
+        char temp = input.charAt(0);
+    input = input.substring(1, 3) + temp + input.substring(3);
 
-        String middleSection = input.substring(2, 3) + firstChar + input.substring(3, input.length() - 1) + "a";
-        String newString = input.substring(1, 2) + lastChar + middleSection + lastChar + "y";
+    // Move the last letter between the original 2nd and 3rd letter
+    temp = input.charAt(input.length() - 1);
+    input = input.substring(0, 2) + temp + input.substring(2, input.length() - 1);
 
-        return newString;
+    // Add an "a" after the original 4th letter
+    input = input.substring(0, 4) + "a" + input.substring(4);
+
+    // End the input with a "y"
+    return input + "y";
     }
 
 }
