@@ -28,22 +28,22 @@ public class App {
         System.out.println();
         System.out.println("exercise 5 - generous");
 
-System.out.println(generous("I like chocolates."));
+        System.out.println(generous("I like chocolates."));
 
-System.out.println(generous("I really like apple pies."));
+        System.out.println(generous("I really like apple pies."));
 
-System.out.println(generous("I super duper like cookies."));
+        System.out.println(generous("I super duper like cookies."));
 
-System.out.println();
-System.out.println("exercise 6 - codeMaker");
+        System.out.println();
+        System.out.println("exercise 6 - codeMaker");
 
-System.out.println(codeMaker("purple"));
+        System.out.println(codeMaker("purple"));
 
-System.out.println(codeMaker("candy"));
+        System.out.println(codeMaker("candy"));
 
-System.out.println(codeMaker("random"));
+        System.out.println(codeMaker("random"));
 
-System.out.println();
+        System.out.println();
     }
 
     public static String extraStart(String sentence) {
@@ -80,30 +80,33 @@ System.out.println();
     public static String shrink(String input) {
         input = input.toLowerCase();
         if (input.charAt(0) == 'i') {
-            String newinput = input.substring(2, input.length()-1);
-            String output = "Why do you " + newinput+"?";
+            String newinput = input.substring(2, input.length() - 1);
+            String output = "Why do you " + newinput + "?";
             return output;
         } else {
             return "Sentence does start with I";
         }
     }
-    public static String generous(String input){
-        input=input.toLowerCase();
+
+    public static String generous(String input) {
+        input = input.toLowerCase();
         int lastnum = input.indexOf("like");
-        if(input.charAt(0)=='i'){
-            return "Here are some"+ input.substring(lastnum+4);
+        if (input.charAt(0) == 'i') {
+            return "Here are some" + input.substring(lastnum + 4);
         }
         return "This is a string";
     }
+
     public static String codeMaker(String input) {
-        String[] newinput=input.split("");
-        if(input.length()==5){
-            return newinput[1]+newinput[input.length()-1]+newinput[2]+newinput[0]+newinput[3]+"a"+newinput[4];
+        String[] newinput = input.split("");
+        if (input.length() == 5) {
+            return newinput[1] + newinput[input.length() - 1] + newinput[2] + newinput[0] + newinput[3] + "a"
+                    + newinput[4];
+        } else {
+            return newinput[1] + newinput[input.length() - 1] + newinput[2] + newinput[0] + newinput[3] + "a"
+                    + newinput[4] + "y";
         }
-        else{
-            return newinput[1]+newinput[input.length()-1]+newinput[2]+newinput[0]+newinput[3]+"a"+newinput[4]+"y";
-        }
-        
-      }
+
+    }
 
 }
