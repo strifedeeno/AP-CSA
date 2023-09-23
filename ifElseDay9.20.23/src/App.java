@@ -98,7 +98,7 @@ System.out.println();
     public static String codeMaker(String input) {
         // Move the first letter between the original 3rd and 4th letter.
         input = input.substring(1) + input.charAt(0);
-      
+
         // Move the last letter between the original 2nd and 3rd letter.
         input = input.substring(0, input.length() - 1) + input.charAt(input.length() - 1) + input.charAt(input.length() - 2);
       
