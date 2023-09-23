@@ -37,7 +37,6 @@ public class App {
             if(input.charAt(i)==' '){
                 spaces++;
             }
-
         }
         return finalstring;
     }
