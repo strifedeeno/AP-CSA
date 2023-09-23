@@ -96,7 +96,7 @@ System.out.println();
         return "This is a string";
     }
     public static String codeMaker(String input){
-        String newString = input.substring(1, 3) + input.charAt(input.length() - 1) + input.charAt(0) + input.substring(3, input.length() - 1) + "a" + input.charAt(input.length() - 1) + "y";
+        String newString = input.substring(2, 4) + input.charAt(0) + input.substring(5) + input.charAt(1) + "y";
         return newString;
     }
 
