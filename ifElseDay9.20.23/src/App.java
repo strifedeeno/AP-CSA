@@ -24,5 +24,20 @@ public class App {
             return "invalid input";
         }
     }
-    
+    public static String thirdWord(String input){
+        int spaces=0;
+        int substringbeginning=0;
+        for(int i =0; i<input.length();i++){
+            if(input.charAt(i)==' '){
+                spaces++;
+            }
+            if(spaces==3){
+                substringbeginning=i;
+            }
+            if(spaces==4){
+                return input.substring(substringbeginning+1,i);
+            }
+        }
+        return "invalid input";
+    }
 }
