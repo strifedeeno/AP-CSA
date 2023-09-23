@@ -18,8 +18,15 @@ public class App {
     }
     public static String nFromTheMiddle(String input, int number) {
         if (input.length() >= 2 && number >= 0 && number < input.length()) {
-            String middle = input.substring(number - 1, number + 2);
-            return middle;
+            int middleIndex = (input.length() - 1) / 2; // Calculate the middle index
+        int startIndex = middleIndex - (number - 1); // Calculate the start index of the substring
+        
+        if (startIndex < 0 || startIndex + 3 > input.length()) {
+            return "invalid input"; // Return "invalid input" if the calculated indices are out of bounds
+        }
+        
+        String middle = input.substring(startIndex, startIndex + 3);
+        return middle;
         } else {
             return "invalid input";
         }
