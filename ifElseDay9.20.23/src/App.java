@@ -97,9 +97,9 @@ System.out.println();
     }
     public static String codeMaker(String input){
         char temp = input.charAt(0);
-char temp2 = input.charAt(input.length() - 1);
-String newString = input.substring(1, 2) + temp2 + input.substring(2, 3) + temp + input.substring(3) + "a" + "y";
-
+        char temp2 = input.charAt(input.length() - 1);
+        String newString = input.substring(1, 2) + temp2 + input.substring(2, 3) + temp + input.substring(3, input.length() - 1) + "a" + temp2 + "y";
+        
         return newString;
     }
 
