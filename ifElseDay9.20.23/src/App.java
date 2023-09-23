@@ -33,7 +33,7 @@ public class App {
         int spaces=0;
         int substringbeginning=0;
         String finalstring="String";
-    
+
         if(spaces<=2){
             return null;
         }
