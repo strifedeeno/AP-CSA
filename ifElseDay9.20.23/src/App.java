@@ -103,7 +103,6 @@ System.out.println();
         input=input.substring(0,input.length()-1);
        // String newString = input.substring(1,3)+temp2+input.substring(3,4)+temp+input.substring(4,input.length()-1)+"a"+input.substring(input.length())+"y";
        String newString = input.substring(1, input.length() - 1) + temp2 + "a" + temp + "y";
-
         return newString+temp2;
     }
 
