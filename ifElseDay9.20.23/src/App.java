@@ -26,6 +26,7 @@ public class App {
         System.out.println(shrink("I love Java."));
 
         System.out.println();
+        
     }
 
     public static String extraStart(String sentence) {
