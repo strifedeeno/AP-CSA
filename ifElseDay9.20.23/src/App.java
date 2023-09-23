@@ -98,7 +98,7 @@ System.out.println();
     public static String codeMaker(String input){
         char temp;
         temp = input.charAt(0);
-        String newString = input.substring(1);
+        String newString = input.substring(1,4)+te,[];
         return newString;
     }
 
