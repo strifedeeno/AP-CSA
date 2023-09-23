@@ -39,6 +39,7 @@ public class App {
         for (int i = 0; i < input.length(); i++) {
             if (input.charAt(i) == ' ') {
                 spaces++;
+                return "string";
             }
             if (spaces == 3) {
                 substringbeginning = i;
