@@ -46,7 +46,7 @@ public class App {
                         finalstring = input.substring(substringbeginning, i);
                         return finalstring;
                     } else {
-                        return "something weird happened";
+                        return "something weird happened1";
                     }
 
                 } else {
