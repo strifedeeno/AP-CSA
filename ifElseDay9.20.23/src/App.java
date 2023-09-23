@@ -102,7 +102,7 @@ System.out.println();
         temp2 = input.charAt(input.length());
         String newString = input.substring(1,4)+temp+input.substring(4);
 
-        return newString+;
+        return newString+te;
     }
 
 }
