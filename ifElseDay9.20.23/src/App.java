@@ -73,7 +73,7 @@ public class App {
         input=input.toLowerCase();
         int lastnum = input.indexOf("like");
         if(input.charAt(0)=='i'){
-            
+            return "Here are some"+ input.substring(2,lastnum);
         }
         return "This is a string";
     }
