@@ -24,7 +24,6 @@ public class App {
         System.out.println();
         System.out.println("exercise 5 - generous");
         System.out.println(generous("I like chocolates."));
-
         System.out.println(generous("I really like apple pies."));
 
         System.out.println(generous("I super duper like cookies."));
