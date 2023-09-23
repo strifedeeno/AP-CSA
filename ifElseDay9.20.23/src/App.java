@@ -17,6 +17,7 @@ public class App {
         System.out.println(thirdWord("123 456 789 0"));
         System.out.println(thirdWord("Aaaaa very short word"));
         System.out.println();
+        
     }
 
     public static String extraStart(String sentence) {
