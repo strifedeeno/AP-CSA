@@ -86,6 +86,6 @@ System.out.println();
         }
         return "This is a string";
     }
-    public sat
+    public s
 
 }
