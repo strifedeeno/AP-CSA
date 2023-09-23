@@ -99,6 +99,7 @@ System.out.println();
         char temp;
         temp = input.charAt(0);
         String newString = input.substring(1,4)+temp+input.substring(4);
+        
         return newString;
     }
 
