@@ -45,14 +45,10 @@ public class App {
                     } else if (spaces == 4) {
                         finalstring = input.substring(substringbeginning, i);
                         return finalstring;
-                    } else {
-                        return "something weird happened1";
+                    }
                     }
 
                 }
-            }
-        } else {
-            return "There are less then three words";
         }
         return ""; // default return statement
     }
