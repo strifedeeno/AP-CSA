@@ -43,7 +43,7 @@ public class App {
             if (spaces == 3) {
                 substringbeginning = i;
             } else if (spaces == 4) {
-                finalstring = input.substring(substringbeginning-1, i);
+                finalstring = input.substring(substringbeginning - 1, i);
                 return "string";
             }
         }
