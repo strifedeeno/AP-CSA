@@ -45,7 +45,7 @@ public class App {
             }
             }
         }
-        if(spaces>=2){
+        if(spaces<=2){
             return null;
         }
         else{
