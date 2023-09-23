@@ -98,7 +98,7 @@ System.out.println();
     public static String codeMaker(String input) {
         String[] newinput=input.split("");
         
-        return newinput[1]+newinput[input.length()-1]+newinput[2]+newinput[0]+newinput[]+"a"+newinput[4]+"y";
+        return newinput[1]+newinput[input.length()-1]+newinput[2]+newinput[0]+newinput[3]+"a"+newinput[4]+"y";
       }
 
 }
