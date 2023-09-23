@@ -108,5 +108,7 @@ public class App {
         }
 
     }
-    public static String merge(String a,)
+    public static String merge(String a, String b){
+        return null;
+    }
 }
