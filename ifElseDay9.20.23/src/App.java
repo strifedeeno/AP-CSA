@@ -32,6 +32,7 @@ public class App {
     public static String thirdWord(String input){
         int spaces=0;
         int substringbeginning=0;
+        String finalstring="String";
         for(int i=0; i<input.length();i++){
             if(input.charAt(i)==' '){
                 spaces++;
@@ -40,9 +41,9 @@ public class App {
                 substringbeginning=i;
             }
             if(spaces==4){
-                return input.substring(substringbeginning+1,i);
+                finalstring =input.substring(substringbeginning,i);
             }
         }
-        return "invalid input";
+        return finalstring;
     }
 }
