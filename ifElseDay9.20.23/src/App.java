@@ -18,15 +18,10 @@ public class App {
     }
     public static String nFromTheMiddle(String input, int number) {
         if (input.length() >= 2 && number >= 0 && number < input.length()) {
-            int middleIndex = (input.length() - 1) / 2;
-        int startIndex = middleIndex - (number - 1);
-        
-        if (startIndex < 0 || startIndex + 3 > input.length()) {
-            return "invalid input";
-        }
-        
-        String middle = input.substring(startIndex, startIndex + 3);
-        return middle;
+            int middle = input.length() / 2;
+            int start = middle - number;
+            int end = start + number * 2;
+            return input.substring(start, end);
         } else {
             return "invalid input";
         }
