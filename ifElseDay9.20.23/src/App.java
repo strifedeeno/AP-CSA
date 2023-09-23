@@ -96,18 +96,25 @@ System.out.println();
         return "This is a string";
     }
     public static String codeMaker(String input){
-        char temp = input.charAt(0);
-    input = input.substring(1, 3) + temp + input.substring(3);
+        char firstChar = input.charAt(0);
 
-    // Move the last letter between the original 2nd and 3rd letter
-    temp = input.charAt(input.length() - 1);
-    input = input.substring(0, 2) + temp + input.substring(2, input.length() - 1);
-
-    // Add an "a" after the original 4th letter
-    input = input.substring(0, 4) + "a" + input.substring(4);
-
-    // End the input with a "y"
-    return input + "y";
+        // Move the first character to the second position
+        String part1 = input.substring(0, 1);
+        String part2 = input.substring(1);
+        String modifiedInput = part1 + part2;
+    
+        // Move the last character to the third position
+        int lastIndex = modifiedInput.length() - 1;
+        char lastChar = modifiedInput.charAt(lastIndex);
+        String part3 = modifiedInput.substring(0, lastIndex);
+        String part4 = lastChar + modifiedInput.substring(lastIndex + 1);
+        modifiedInput = part3 + part4;
+    
+        // Add an 'a' after the fourth character
+        modifiedInput += "a";
+    
+        // Return the modified input string
+        return modifiedInput;
     }
 
 }
