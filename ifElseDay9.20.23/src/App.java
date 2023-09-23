@@ -36,6 +36,12 @@ public class App {
         for(int i=0; i<input.length();i++){
             if(input.charAt(i)==' '){
                 spaces++;
+                if(spaces==3){
+                substringbeginning=i;
+            }
+            if(spaces==4){
+                finalstring =input.substring(substringbeginning,i);
+            }
             }
         }
         return finalstring;
