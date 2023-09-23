@@ -49,6 +49,16 @@ public class App {
         }
         return ""; // default return statement
     }
-    publi
+    public static String shrink(String input){
+        input=input.toLowerCase();
+        if(input.charAt(1)=='i'){
+            String newinput= input.substring(2);
+            String output= "Why do you "+newinput;
+            return output;
+        }
+        else{
+            return "Sentence does start with I";
+        }
+    }
 
 }
