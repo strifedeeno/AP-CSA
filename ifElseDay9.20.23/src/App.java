@@ -41,9 +41,15 @@ public class App {
             }
             if(spaces==4){
                 finalstring =input.substring(substringbeginning,i);
+                return finalstring;
             }
             }
         }
-        return finalstring;
+        if(spaces>=2){
+            return null;
+        }
+        else{
+            return "There are less then three words";
+        }
     }
 }
