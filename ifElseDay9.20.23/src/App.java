@@ -97,11 +97,12 @@ System.out.println();
     }
     public static String codeMaker(String input){
         
+       
         char firstChar = input.charAt(0);
         char lastChar = input.charAt(input.length() - 1);
 
-        // Constructing the scrambled string according to the given rules
-        String newString = input.substring(1, 2) + lastChar + input.substring(2, 3) + firstChar + input.substring(3, input.length() - 1) + "a" + lastChar + "y";
+        String middleSection = input.substring(2, 3) + firstChar + input.substring(3, input.length() - 1) + "a";
+        String newString = input.substring(1, 2) + lastChar + middleSection + lastChar + "y";
 
         return newString;
     }
