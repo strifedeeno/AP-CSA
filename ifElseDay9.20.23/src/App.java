@@ -119,23 +119,23 @@ public class App {
     }
 
     public static String merge(String a, String b) {
-        StringBuilder result = new StringBuilder();
+        String result = "";
         int maxLength = Math.max(a.length(), b.length());
 
         for (int i = 0; i < maxLength; i++) {
             if (i < a.length()) {
-                result.append(a.charAt(i));
+                result += a.charAt(i);
             } else {
-                result.append('-');
+                result += '-';
             }
 
             if (i < b.length()) {
-                result.append(b.charAt(i));
+                result += b.charAt(i);
             } else {
-                result.append('+');
+                result += '+';
             }
         }
 
-        return result.toString();
+        return result;
     }
 }
