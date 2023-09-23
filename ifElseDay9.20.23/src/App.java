@@ -61,7 +61,7 @@ public class App {
 
     public static String shrink(String input) {
         input = input.toLowerCase();
-        if (input.charAt(1) == 'i') {
+        if (input.charAt(1) == 'I') {
             String newinput = input.substring(2);
             String output = "Why do you " + newinput;
             return output;
