@@ -19,13 +19,13 @@ public class App {
         System.out.println();
         System.out.println("exercise 4 - shrink");
 
-System.out.println(shrink("I hate hot weather."));
+        System.out.println(shrink("I hate hot weather."));
 
-System.out.println(shrink("I want to take a walk."));
+        System.out.println(shrink("I want to take a walk."));
 
-System.out.println(shrink("I love Java."));
+        System.out.println(shrink("I love Java."));
 
-System.out.println();
+        System.out.println();
     }
 
     public static String extraStart(String sentence) {
@@ -58,14 +58,14 @@ System.out.println();
         }
         return ""; // default return statement
     }
-    public static String shrink(String input){
-        input=input.toLowerCase();
-        if(input.charAt(1)=='i'){
-            String newinput= input.substring(2);
-            String output= "Why do you "+newinput;
+
+    public static String shrink(String input) {
+        input = input.toLowerCase();
+        if (input.charAt(1) == 'i') {
+            String newinput = input.substring(2);
+            String output = "Why do you " + newinput;
             return output;
-        }
-        else{
+        } else {
             return "Sentence does start with I";
         }
     }
