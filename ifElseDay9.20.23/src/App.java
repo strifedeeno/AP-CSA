@@ -98,8 +98,10 @@ System.out.println();
     public static String codeMaker(String input){
         char temp;
         temp = input.charAt(0);
+        char temp2;
+        te,
         String newString = input.substring(1,4)+temp+input.substring(4);
-        
+
         return newString;
     }
 
