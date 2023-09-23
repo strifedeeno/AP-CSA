@@ -35,6 +35,15 @@ System.out.println(generous("I really like apple pies."));
 System.out.println(generous("I super duper like cookies."));
 
 System.out.println();
+System.out.println("exercise 6 - codeMaker");
+
+System.out.println(codeMaker("purple"));
+
+System.out.println(codeMaker("candy"));
+
+System.out.println(codeMaker("random"));
+
+System.out.println();
     }
 
     public static String extraStart(String sentence) {
