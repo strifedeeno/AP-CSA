@@ -108,5 +108,5 @@ public class App {
         }
 
     }
-    pu
+    public static String merge(String a)
 }
