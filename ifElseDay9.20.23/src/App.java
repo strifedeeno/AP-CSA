@@ -96,17 +96,12 @@ System.out.println();
         return "This is a string";
     }
     public static String codeMaker(String input){
-        String part1 = input.substring(0, 2);
-        String part2 = input.substring(2, 3);
-        String part3 = input.substring(3, 4);
-        String part4 = input.substring(4);
-
-        // Move the last letter between the original 2nd and 3rd letter.
-        // Add an “a” after the original 4th letter.
-        // End the word with a “y”
-        String scrambled = part1 + input.charAt(input.length() - 1) + part2 + input.charAt(0) + part3 + "a" + part4.substring(0, part4.length() - 1) + "y";
-
-        return scrambled;
+        char firstChar = input.charAt(0);
+        char lastChar = input.charAt(input.length() - 1);
+        String middleSection = input.substring(2, 3) + firstChar + input.substring(3, input.length() - 1) + "a";
+        String newString = input.substring(1, 2) + lastChar + middleSection + lastChar + "y";
+        
+        return newString;
     }
 
 }
