@@ -35,9 +35,7 @@ public class App {
         System.out.println("exercise 7 - merge");
         System.out.println(merge("123", "abc"));
         System.out.println(merge("123", "a"));
-
         System.out.println(merge("1", "abc"));
-
         System.out.println();
     }
 
