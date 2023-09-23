@@ -18,7 +18,7 @@ public class App {
     }
     public static String nFromTheMiddle(String input,int number){
         if(input.length()>=2&& number>1&&number<input.length()-1){
-            
+            Srt
         }
         return null;
     }
