@@ -44,7 +44,7 @@ public class App {
                 substringbeginning = i;
             } else if (spaces == 4) {
                 finalstring = input.substring(substringbeginning - 1, i);
-                return "string";
+                return finalstring;
             }
         }
         return ""; // default return statement
