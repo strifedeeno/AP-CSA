@@ -26,7 +26,15 @@ public class App {
         System.out.println(shrink("I love Java."));
 
         System.out.println();
-        
+        System.out.println("exercise 5 - generous");
+
+System.out.println(generous("I like chocolates."));
+
+System.out.println(generous("I really like apple pies."));
+
+System.out.println(generous("I super duper like cookies."));
+
+System.out.println();
     }
 
     public static String extraStart(String sentence) {
