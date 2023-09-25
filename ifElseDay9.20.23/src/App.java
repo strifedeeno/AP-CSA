@@ -1,6 +1,4 @@
-import java.util.*;
-
-public class App {
+import java.upublic class App {
     public static void main(String[] args) throws Exception {
         System.out.println("exercise 1 - extraStart");
         System.out.println(extraStart("Kathy"));
