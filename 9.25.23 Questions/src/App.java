@@ -8,7 +8,7 @@ public class App {
         int number2 = 1;
         for(int i=1;i<=b;i++){
             number =a;
-            ;
+            
             number=a;
         }
         return number;
