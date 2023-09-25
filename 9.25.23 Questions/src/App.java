@@ -5,6 +5,7 @@ public class App {
     }
     public static int cumsum(int a, int b){
         int number = 0;
+        IN
         for(int i=1;i<=b;i++){
             a*=i;
             number=a;
