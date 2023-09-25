@@ -9,7 +9,7 @@ public class App {
         for(int i=1;i<=b;i++){
             number =a;
             
-            number=a;
+            
         }
         return number;
     }
