@@ -4,7 +4,7 @@ public class App {
         System.out.println(cumsum(2,5));
     }
     public static int cumsum(int a, int b){
-        int number = 1;
+        int number = 2;
         for(int i=1;i<=b;i++){
             number =a;
             number= number*i;
