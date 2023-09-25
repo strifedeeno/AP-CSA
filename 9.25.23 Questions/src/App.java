@@ -7,7 +7,7 @@ public class App {
         int number = 0;
         int number2 = 1;
         for(int i=1;i<=b;i++){
-            
+            number =a;
             a*=i;
             number=a;
         }
