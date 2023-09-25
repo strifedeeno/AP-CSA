@@ -4,9 +4,8 @@ public class App {
         System.out.println(cumsum(2,6));
     }
     public static int cumsum(int a, int b){
-        int number = 0;
-        for(int i=a;i<=b;i++){
-            number =a;
+        int number =a;
+        for(int i=a;i<b;i++){
             number= number*i;
         }
         return number;
