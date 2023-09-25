@@ -9,6 +9,6 @@ public class App {
             a*=i;
             number=a;
         }
-    return number;
+        return number;
     }
 }
