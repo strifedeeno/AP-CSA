@@ -3,11 +3,12 @@ public class App {
         System.out.println("Please make sure that the first number is smaller than the second number.");
         System.out.println(cumsum(2,31));
     }
-    public static int cumsum(int a, int b){
-        int number =1;
-        for(int i=a;i<=b;i++){
-            number= number*i;
+    public static BigInteger cumsum(int a, int b) {
+        BigInteger number = BigInteger.valueOf(1);
+        for (int i = a; i <= b; i++) {
+            number = number.multiply(BigInteger.valueOf(i));
         }
         return number;
     }
+    
 }
