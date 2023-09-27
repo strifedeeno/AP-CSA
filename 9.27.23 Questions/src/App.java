@@ -5,8 +5,8 @@ public class App {
     public static int ncounter(String word){
         int count =0;
         word=word.toLowerCase();
-        for(int i= word.length(); i>=0;i--){
-            if(word.charAt(i-1)=='n'){
+        for(int i= word.length(); i>0;i--){
+            if(word.charAt(i)=='n'){
                 count++;
             }
         }
