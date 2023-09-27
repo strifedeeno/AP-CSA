@@ -1,15 +1,14 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println(ncounter("Bannnnna"));
+        mystery(19);
     }
-    public static int ncounter(String word){
-        int count =0;
-        word=word.toLowerCase();
-        for(int i= word.length(); i>0;i--){
-            if(word.charAt(i-1)=='n'){
-                count++;
-            }
+    public static void mystery(int x) {
+        int y = 1;
+        int z = 0;
+        while (2 * y <= x) {
+            y = y * 2;
+            z++;
         }
-        return count;
+        System.out.println(y + " " + z);
     }
 }
