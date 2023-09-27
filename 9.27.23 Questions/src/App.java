@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        mystery(39);
+        mystery(74);
     }
     public static void mystery(int x) {
         int y = 1;
