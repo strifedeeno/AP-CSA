@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println(ncounter("Banna"));
+        System.out.println(ncounter("Bannnnna"));
     }
     public static int ncounter(String word){
         int count =0;
