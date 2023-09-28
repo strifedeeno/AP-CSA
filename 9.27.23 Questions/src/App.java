@@ -1,15 +1,20 @@
-import java.util.
+import java.util.*;
 public class App {
     public static void main(String[] args) throws Exception {
-        mystery(74);
+        Scanner scanthing= new Scanner(System.in);
+        System.out.println("Please input first number: ");
+        int x = scanthing.nextInt();
+        System.out.println("Please input second number: ");
+        int y = scanthing.nextInt();
+        System.out.println(mystery(x,y));
     }
-    public static void mystery(int x) {
-        int y = 1;
-        int z = 0;
-        while (2 * y <= x) {
-            y = y * 2;
-            z++;
+    public static String mystery(int x,int y) {
+        if(x>y){
+            return "yes";
         }
-        System.out.println(y + " " + z);
+        else{
+            return "no";
+        }
+        
     }
 }
