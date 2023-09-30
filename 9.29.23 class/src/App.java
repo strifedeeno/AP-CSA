@@ -3,7 +3,9 @@ public class App {
         System.out.println("Hello, World!");
     }
     public static void allDigits(int x)  {
-    	     while(x.length()>)
+    	     while(x.length()>0){
+                
+             }
    	}
 
 }
