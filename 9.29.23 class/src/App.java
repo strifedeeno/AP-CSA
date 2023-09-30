@@ -5,7 +5,7 @@ public class App {
     public static void allDigits(int x)  {
         while(x>9){
 
-         }
+        }
    	}
 
 }
