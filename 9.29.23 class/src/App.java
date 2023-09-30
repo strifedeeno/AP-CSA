@@ -4,7 +4,7 @@ public class App {
     }
     public static int getFirstFactor(int x)  {
         boolean thing=false;
-        while(thing=false){
+        while(!thing){
             for(int i =2;i<=x;i++){
                 if(x%i==0){
                     thing=true;
