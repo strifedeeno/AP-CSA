@@ -5,6 +5,7 @@ public class App {
     public static void allDigits(int x)  {
         while(x>9){
             System.out.println(x%10);
+            x=
         }
    	}
 
