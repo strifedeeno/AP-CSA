@@ -3,7 +3,7 @@ public class App {
         allDigits(10);
     }
     public static void allDigits(int x)  {
-        while(x>9){
+        while(x>0){
             System.out.println(x%10);
             x=x/10;
         }
