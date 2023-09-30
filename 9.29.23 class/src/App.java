@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println();getFirstFactor(1000);
+        System.out.println(;getFirstFactor(1000);
     }
     public static int getFirstFactor(int x)  {
         boolean thing=false;
