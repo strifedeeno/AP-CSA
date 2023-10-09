@@ -1,7 +1,7 @@
 import java.util.*;
 public class App {
     public static void main(String[] args) throws Exception {
-        int win
+        int wincount=0;
         Random rand= new Random();
         int randomNumber= rand.nextInt(3)+1;
         Scanner scanner = new Scanner(System.in);
