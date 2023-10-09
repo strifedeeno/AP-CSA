@@ -17,6 +17,7 @@ public class App {
         }
         if(numinput==3 && randomNumber==2){
             System.out.println("works");
+            wincount
         }
     }
 }
