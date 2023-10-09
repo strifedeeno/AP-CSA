@@ -5,7 +5,7 @@ public class App {
         Random rand= new Random();
         int randomNumber= rand.nextInt(3)+1;
         Scanner scanner = new Scanner(System.in);
-String input = scanner.nextLine();
+        String input = scanner.nextLine();
         
     }
 }
