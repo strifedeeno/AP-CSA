@@ -16,7 +16,7 @@ public class App {
             numinput = Integer.valueOf(input);
         }
         if(numinput==3 && randomNumber==2){
-            System.out.println("works");
+            System.out.println("You won.");
             wincount++;
         }
     }
