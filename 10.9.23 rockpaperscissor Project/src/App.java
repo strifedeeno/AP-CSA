@@ -15,7 +15,7 @@ public class App {
             numinput = Integer.valueOf(input);
         }
         if(numinput==3 && randomNumber==2){
-            System.out.println("");
+            System.out.println("works");
         }
     }
 }
