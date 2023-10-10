@@ -47,7 +47,9 @@ public class App {
             }
             else if(numinput==1 && randomNumber==3){
                 System.out.println("You win.");
+                wincount++;
             }
+            System.out.println(wincount);
         }
     }
 }
