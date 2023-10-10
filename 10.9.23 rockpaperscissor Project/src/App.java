@@ -13,7 +13,7 @@ public class App {
         String input = scanner.nextLine();
         
             if(input.equals("q")){
-                System.out.println("");
+                System.out.println("Bye! You ");
                 break;
             }
             else{
