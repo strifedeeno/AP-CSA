@@ -18,6 +18,7 @@ public class App {
             else{
                 numinput = Integer.valueOf(input);
             }
+            System.out.println("Computer picks: "+ randomNumber);
             if(numinput==3 && randomNumber==2){
                 System.out.println("You won.");
                 wincount++;
