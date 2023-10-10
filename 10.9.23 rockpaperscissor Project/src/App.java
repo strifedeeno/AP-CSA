@@ -49,7 +49,7 @@ public class App {
                 System.out.println("You win.");
                 wincount++;
             }
-            System.out.println(Youwincount);
+            System.out.println(""wincount);
         }
     }
 }
