@@ -11,7 +11,6 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your pick (1--rock, 2--paper, 3--scissor, q--exit): ");
         String input = scanner.nextLine();
-
         
             if(input.equals("q")){
                 break;
