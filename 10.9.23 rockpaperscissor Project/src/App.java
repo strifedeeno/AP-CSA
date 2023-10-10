@@ -13,7 +13,7 @@ public class App {
         String input = scanner.nextLine();
         
             if(input.equals("q")){
-                System.out.println("Bye! You ");
+                System.out.println("Bye! You won a total of "+wincount+" times.");
                 break;
             }
             else{
