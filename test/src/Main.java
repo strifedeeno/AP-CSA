@@ -7,7 +7,7 @@ public class Main {
     }
     public static int[] neg(int[] thing){
         for(int i=0; i<thing.length; i++){
-            if(thing[i]<0){
+            if(thing[i]>0){
                 thing[i]=0;
             }
         };
