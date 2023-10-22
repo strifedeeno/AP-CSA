@@ -2,7 +2,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         String[] ar1={"dog", "a", "howo"};
-        voweler(ar1);
+        System.out.println(voweler(ar1));
     }
     public static int voweler(String[] thing){
         int count = 0;
