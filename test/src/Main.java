@@ -11,7 +11,7 @@ public class Main {
         for(int i=0; i<thing.length; i++){
             intarrya[i] = thing[i].length();
             if(intarrya[i] % 2 != 0){
-                
+                 o
             }
         }
         return intarrya;
