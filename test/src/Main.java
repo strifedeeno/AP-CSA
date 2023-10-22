@@ -2,7 +2,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         String[] ar1= {"dog", "a", "howo"};
-        lengther(ar1);
+        int[] thing= lengther(ar1);
         System.out.println(Arrays.toString(ar1));
     }
     public static int[] lengther(String[] thing){
