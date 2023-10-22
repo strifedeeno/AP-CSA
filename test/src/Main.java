@@ -11,7 +11,7 @@ public class Main {
         for (int i=0; i<thing.length; i++){
             result[i] = thing[i];
         }
-        for (int i=thing.length; i<result.length; i++){
+        for (int i=thing.length-1; i<result.length; i++){
             result[i] = thing2[i];
         }
         return result;
