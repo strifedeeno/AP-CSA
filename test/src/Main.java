@@ -15,7 +15,7 @@ public class Main {
             }
         }
         for (int i=thing.length; i<result.length; i++){
-            if(thing2[i]%2!=0){
+            if(thing2[i-thing.length]%2!=0){
                 result[i] = thing2[i-thing.length];
             }
         }
