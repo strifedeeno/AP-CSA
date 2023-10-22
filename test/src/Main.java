@@ -1,7 +1,7 @@
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        String[] ar1= {"dog", "a", "howo"};
+        String[] ar1={"a","dog", "a", "howo","a"};
         int[] thing= lengther(ar1);
         System.out.println(Arrays.toString(thing));
     }
