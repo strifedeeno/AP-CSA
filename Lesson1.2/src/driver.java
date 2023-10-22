@@ -12,7 +12,7 @@ public class driver {
                 how
                 are
                 you
-                the man said "How was your day?" """);
+                the man said "How wads your day?" """);
         System.out.println("""
                 """);
     }
