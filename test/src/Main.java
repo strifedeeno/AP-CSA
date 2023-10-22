@@ -5,7 +5,7 @@ public class Main {
         int[] ar2={3,4,5};
 
         int[] thing= oddmerger(ar1, ar2);
-        System.out.println(thing.toString());
+        System.out.println(Arrays.toString(thing));
     }
     public static int[] oddmerger(int[] thing, int[] thing2) {
         int[] result= new int[thing.length+thing2.length];
