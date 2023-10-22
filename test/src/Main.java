@@ -18,7 +18,6 @@ public class Main {
             if(thing[i]%2!=0){
                 result[i] = thing[i];
             }
-            result[i] = thing2[i-thing.length];
         }
         return result;
     }
