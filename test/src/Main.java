@@ -1,7 +1,7 @@
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        String[] ar1={"dog", "a", "howo"};
+        String[] ar1={"dog", "a", "howoooo"};
         System.out.println(voweler(ar1));
     }
     public static int voweler(String[] thing){
