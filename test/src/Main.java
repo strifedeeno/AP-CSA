@@ -2,10 +2,10 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         String[] ar1={"a","dog", "a", "howo","a"};
-        int thing= counterodd(ar1);
+        int thing= oddmerger(ar1);
         System.out.println(thing);
     }
-    public static int counterodd(String[] thing){
+    public static int oddmerger(i[] thing){
         int count= 0;
         int[] intarrya = new int[thing.length];
         for(int i=0; i<thing.length; i++){
