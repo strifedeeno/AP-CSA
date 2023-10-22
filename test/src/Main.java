@@ -1,14 +1,17 @@
 public class Main {
-    public static void main(String[] args) {
-        for(int x = 1; x<3;x++){
-            for (int y = 2; y<5;y++){
-                for(int z = 3; z<4;z++){
-                    System.out.print(y);}}}
-
-
-
-
-
-
-
-    }}
+    public static void main(String[] args){
+int x=4;
+int y=7;
+int z=9;
+        z=mystery(y,x,z);
+        y=mystery(z,x,y);
+        x=mystery(x,z,y);
+        System.out.println(x);
+    }
+public static int mystery(int x,int y,int z){
+        x++;
+        y--;
+        z=x-y;
+        return z;
+}
+}
