@@ -10,7 +10,9 @@ public class Main {
         int[] intarrya = new int[thing.length];
         for(int i=0; i<thing.length; i++){
             intarrya[i] = thing[i].length();
-            if(intarrya[i] % 2 != 0){}
+            if(intarrya[i] % 2 != 0){
+                
+            }
         }
         return intarrya;
     }
