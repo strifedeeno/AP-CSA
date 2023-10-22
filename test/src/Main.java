@@ -6,9 +6,11 @@ public class Main {
         System.out.println(Arrays.toString(thing));
     }
     public static int[] lengther(String[] thing){
+        int count= 0;
         int[] intarrya = new int[thing.length];
         for(int i=0; i<thing.length; i++){
             intarrya[i] = thing[i].length();
+            if(intarrya[i] % 2 != 0){}
         }
         return intarrya;
     }
