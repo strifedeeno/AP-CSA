@@ -5,7 +5,7 @@ public class Main {
         int thing= oddmerger(ar1);
         System.out.println(thing);
     }
-    public static int oddmerger(i[] thing){
+    public static int oddmerger(int[] thing){
         int count= 0;
         int[] intarrya = new int[thing.length];
         for(int i=0; i<thing.length; i++){
