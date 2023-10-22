@@ -1,19 +1,14 @@
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        String[] ar1={"dog", "a", "howo"};
-        System.out.println(voweler(ar1));
+        int[] ar1= {1,-3,-5,9,0,-2};
+        System.out.println();
     }
-    public static int voweler(String[] thing){
-        int count = 0;
-        for(int i = 0; i <thing.length; i++){
-            for(int j = 0; j < thing[i].length(); j++){
-                if (thing[i].charAt(j) == 'o'){
-                    count++;
-                }
+    public static void neg(int[] thing){
+        for(int i=0; i<thing.length; i++){
+            if(thing[i]<0){
+                thing[i]=0;
             }
-            
-        }
-        return count;
+        };
     }
 }
