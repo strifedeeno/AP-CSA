@@ -2,7 +2,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         int[] ar1= {1,-3,-5,9,0,-2};
-        System.out.println(ar1.toString());
+        System.out.println(Arrays.toString(ar1));
     }
     public static void neg(int[] thing){
         for(int i=0; i<thing.length; i++){
