@@ -15,6 +15,7 @@ public class Main {
             }
         }
         for (int i=thing.length; i<result.length; i++){
+            
             result[i] = thing2[i-thing.length];
         }
         return result;
