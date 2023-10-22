@@ -10,7 +10,9 @@ public class Main {
     public static int[] oddmerger(int[] thing, int[] thing2) {
         int[] result= new int[thing.length+thing2.length];
         for (int i=0; i<thing.length; i++){
-            if(thing[i]%2!=0)result[i] = thing[i];
+            if(thing[i]%2!=0){
+                result[i] = thing[i];
+            }
         }
         for (int i=thing.length; i<result.length; i++){
             result[i] = thing2[i-thing.length];
