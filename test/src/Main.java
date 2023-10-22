@@ -1,19 +1,19 @@
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        String[] ar1={"a","dog", "a", "howo","a"};
-        int thing= oddmerger(ar1);
-        System.out.println(thing);
+        int[] ar1={1,2,3};
+        int[] ar2={3,4,5};
+
+        int[] thing= oddmerger(ar1, ar2);
     }
-    public static int oddmerger(int[] thing){
-        int count= 0;
-        int[] intarrya = new int[thing.length];
-        for(int i=0; i<thing.length; i++){
-            intarrya[i] = thing[i].length();
-            if(intarrya[i] % 2 != 0){
-                count++;
-            }
+    public static int[] oddmerger(int[] thing, int[] thing2) {
+        int[] result= new int[thing.length+thing2.length];
+        for (int i=0; i<thing.length; i++){
+            result[i] = thing[i];
         }
-        return count;
+        for (int i=thing.length; i<result.length; i++){
+            result[i] = thing2[i];
+        }
+        return result;
     }
 }
