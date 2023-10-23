@@ -7,6 +7,7 @@ public class Main {
     public static int vowler(String[] string1) {
         int count = 0;
         for (int i = 0; i < string1.length; i++){
+            string1[i]=string1[i].toLowerCase();
             for (int j = 0; j<string1[i].length(); j++){
                 if(string1[i].charAt(j)=='o'){
                     count++;
