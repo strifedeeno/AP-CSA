@@ -1,24 +1,18 @@
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        int[] ar1={1,2,3};
-        int[] ar2={3,4,5};
-
-        int[] thing= oddmerger(ar1, ar2);
-        System.out.println(Arrays.toString(thing));
+        String[] ar1 = {"Hello", "World","Bob" };
+        vowler(ar1);
     }
-    public static int[] oddmerger(int[] thing, int[] thing2) {
-        int[] result= new int[thing.length+thing2.length];
-        for (int i=0; i<thing.length; i++){
-            if(thing[i]%2!=0){
-                result[i] = thing[i];
+    public static int vowler(String[] string1) {
+        int count = 0;
+        for (int i = 0; i < string1.length; i++){
+            for (int j = 0; j<string1[i].length(); j++){
+                if(string1[i].charAt(j)=='o'){
+                    count++;
+                }
             }
         }
-        for (int i=thing.length; i<result.length; i++){
-            if(thing2[i-thing.length]%2!=0){
-                result[i] = thing2[i-thing.length];
-            }
-        }
-        return result;
+        return count;
     }
 }
