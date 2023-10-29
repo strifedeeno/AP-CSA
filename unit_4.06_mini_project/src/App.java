@@ -9,7 +9,7 @@ public class App {
         for(int i =0; i<array.length;i++){
             for(int j = 0;i<array[i].length;i++){
                 if(i==0||j==0||i==array.length-1||i==array[i].length-1){
-                    
+                    array[i][j] = 0;
                 }
             }
         }
