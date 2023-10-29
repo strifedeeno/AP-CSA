@@ -1,4 +1,5 @@
 {
     "gitdoc.enabled": true,
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.debug.settings.showStaticVariables": true
 }
