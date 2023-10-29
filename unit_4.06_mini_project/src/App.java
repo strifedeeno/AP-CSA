@@ -2,8 +2,9 @@ import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Here is the magic box:");
+        System.out.println("Here is the magic box: ");
         magicBox(2);
+        System.out.println("");
         pyramid(6);
     }
 
