@@ -1,19 +1,26 @@
 import java.util.*;
-public class Main {
-    public static void main(String[] args) {
-        String[] ar1 = {"Hello", "World","Bob" };
-        System.out.println(vowler(ar1));
-    }
-    public static int vowler(String[] string1) {
-        int count = 0;
-        for (int i = 0; i < string1.length; i++){
-            string1[i]=string1[i].toLowerCase();
-            for (int j = 0; j<string1[i].length(); j++){
-                if(string1[i].charAt(j)=='o'){
-                    count++;
-                }
-            }
+class Main {
+  public static void main(String[] args) {
+    magicBox(3);
+  }
+
+  public static void magicBox(int x)
+  {
+    int[][] box = new int[x*2+1][x*2+1];
+    for(int i = 0; i < box.length-1; i++)
+      {
+      for(int j =0; j<box.length-1; i++)
+        {
+          if(i == 0 || j == 0 || i == x*2|| j == x*2)
+          {
+            box[i][j] = 1;
+          }
+            
         }
-        return count;
-    }
+      }
+    for(int i = 0; i < box.length-1; i++)
+      {
+        System.out.println(Arrays.toString(box[i]));
+      }
+  }
 }
