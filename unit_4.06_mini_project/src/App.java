@@ -6,7 +6,7 @@ public class App {
     }
     public static void magicBox(int x){
         int[][] array= new int[x*2+1][x*2+1];
-        for(int i =0; i<=array.length-1;i++){
+        for(int i =0; i<array.length;i++){
             for(int j = 0;j<array.length-1;j++){
                 if(i==0||j==0||i==array.length-1||j==array.length-1){
                     System.out.println(array.length-1);
