@@ -10,7 +10,7 @@ public class App {
         int num=x;
         for (int i = array.length-1; i >0; i--) {
             for (int j = array.length-1; j > 0; j--) {
-                if (i == num+1 || j == num+1 || i == array.length - num || j == array.length + num) {
+                if (i == num+1 || j == num+1 || i == array.length + num || j == array.length + num) {
                     array[i][j] = num;
                 }
             }
