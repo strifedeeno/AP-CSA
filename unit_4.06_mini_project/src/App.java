@@ -7,7 +7,7 @@ public class App {
 
     public static void magicBox(int x) {
         int[][] array = new int[x * 2 + 1][x * 2 + 1];
-        for(int num=0; num<x;num++)
+        for(int num=1; num<=x;num++)
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 if (i == 0 || j == 0 || i == array.length - 1 || j == array.length - 1) {
