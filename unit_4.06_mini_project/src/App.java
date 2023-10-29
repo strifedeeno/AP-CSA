@@ -27,7 +27,7 @@ public class App {
         for (int num = x; num >= 0; num--) {
             for (int i = array.length - 1; i > 0; i--) {
                 for (int j = array.length - 1; j > 0; j--) {
-                    if (i == num || j == num || i == array.length - num-1 || j == array.length - num-1) {
+                    if (i == num || j == num) {
                         array[i][j] = num;
                     }
                 }
