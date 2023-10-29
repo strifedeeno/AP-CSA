@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class App {
     public static void main(String[] args) throws Exception {
         magicBox(2);
-        pyramid(3);
+        pyramid(6);
     }
 
     public static void magicBox(int x) {
