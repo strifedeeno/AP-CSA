@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        magicBox(200);
+        magicBox(2000);
     }
 
     public static void magicBox(int x) {
