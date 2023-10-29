@@ -14,7 +14,7 @@ class Main {
         {
           if(i == 0 || j == 0 || i == x*2|| j == x*2)
           {
-            box[i][j] = 1;
+            
           }
             
         }
