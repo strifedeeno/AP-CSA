@@ -2,6 +2,6 @@
     "gitdoc.enabled": true,
     "java.debug.settings.onBuildFailureProceed": true,
     "java.debug.settings.showStaticVariables": false,
-    "java.debug.settings.showQualifiedNames": false,
-    "java.debug.settings.showHex": true
+    "java.debug.settings.showQualifiedNames": true,
+    "java.debug.settings.showHex": false
 }
