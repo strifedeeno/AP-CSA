@@ -11,7 +11,7 @@ public class App {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 if (i == num-1 || j == num-1 || i == array.length - num || j == array.length - num) {
-                    array[i][j] = num-1;
+                    array[i][j] = num;
                 }
             }
         }
