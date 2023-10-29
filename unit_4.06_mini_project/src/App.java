@@ -10,7 +10,7 @@ public class App {
         for(int num=1; num<=x;num++)
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                if (i == 0 || j == 0 || i == array.length - num || j == array.length - num) {
+                if (i == 0 || j == num-1 || i == array.length - num || j == array.length - num) {
                     array[i][j] = 2;
                 }
             }
