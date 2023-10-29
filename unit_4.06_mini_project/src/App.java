@@ -3,6 +3,6 @@ public class App {
         System.out.println("Hello, World!");
     }
     public static void magicBox(int x){
-        
+        for inm
     }
 }
