@@ -1,5 +1,7 @@
 {
     "gitdoc.enabled": true,
     "java.debug.settings.onBuildFailureProceed": true,
-    "java.debug.settings.showStaticVariables": true
+    "java.debug.settings.showStaticVariables": false,
+    "java.debug.settings.showQualifiedNames": false,
+    "java.debug.settings.showHex": true
 }
