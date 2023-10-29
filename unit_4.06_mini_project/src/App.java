@@ -8,7 +8,7 @@ public class App {
         int[][] array= new int[x*2+1][x*2+1];
         for(int i =0; i<array.length-1;i++){
             for(int j = 0;j<array[i].length-1;j++){
-                if(i==0||j==0||i==array.length-1||j==array[i].length-1){
+                if(i==0||j==0||i==array.length-1||j==array.length-1){
                     array[i][j] = 2;
                 }
             }
