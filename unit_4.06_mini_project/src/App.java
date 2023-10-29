@@ -23,7 +23,7 @@ public class App {
         }
     }
      public static void pyramid(int x) {
-        int[][] array = new int[x+1][x  1];
+        int[][] array = new int[x+1][x+1];
         for (int num = x; num >= 0; num--) {
             for (int i = array.length - 1; i > 0; i--) {
                 for (int j = array.length - 1; j > 0; j--) {
