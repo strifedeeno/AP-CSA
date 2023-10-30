@@ -4,18 +4,17 @@ public class Main {
         magicBox(3);
     }
 
-    public static void magicBox(int x) {
-        int[][] array = new int[x * 2 + 1][x * 2 + 1];
-        for(int num=1; num<=x;num++)
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                if (i == 0 || j == 0 || i == array.length - 1 || j == array.length - 1) {
-                    array[i][j] = 2;
-                }
+    public static void magicBox(int size) {
+        int[][] array= new int[size*2+1][size*2+1];
+        for(int i =0; i < size;i++){
+            for(int j = 0;j < size;j++){
+              if(j > i){
+                array[i][j] = i;
+              }
+              else {
+                array[i][j] = j;
+              }
             }
-        }
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(Arrays.toString(array[i]));
-        }
+          }
     }
 }
