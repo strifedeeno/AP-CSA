@@ -17,7 +17,7 @@ public class Main {
             }
           }
           for(int i = 0; i<array.length ;i++){
-            System.out.println(Arrays.toString(array));
+            System.out.println(Arrays.deepToString(array));
           }
     }
 }
