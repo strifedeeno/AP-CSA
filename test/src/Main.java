@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) throws Exception {
         magicBox(3);
@@ -7,14 +6,12 @@ public class Main {
 
     public static void magicBox(int x) {
         int[][] array = new int[x * 2 + 1][x * 2 + 1];
-        for (int num = x; num >= 0; num--) {
-            for (int i = array.length - 1; i > 0; i--) {
-                for (int j = array.length - 1; j > 0; j--) {
-                    if (i == num || j == num || i == array.length - num-1 || j == array.length - num-1) {
-                        array[i][j] = num;
-                    }
+        for(int num=1; num<=x;num++)
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                if (i == 0 || j == 0 || i == array.length - 1 || j == array.length - 1) {
+                    array[i][j] = 2;
                 }
-
             }
         }
         for (int i = 0; i < array.length; i++) {
