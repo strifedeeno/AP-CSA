@@ -20,6 +20,7 @@ public class lines {
             else{
                 liststring.add(hi);
             }
+            scan.close();
         }
         return liststring;
     }
