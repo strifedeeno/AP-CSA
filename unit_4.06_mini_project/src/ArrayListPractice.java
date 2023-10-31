@@ -4,7 +4,7 @@ public class ArrayListPractice {
         createList();
     }
     public static void createList(){
-        ArrayList thing=new ArrayList();
+        ArrayList thing=new ArrayList<String>();
         thing.add("The");
     }
 }
