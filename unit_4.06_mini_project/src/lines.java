@@ -31,4 +31,7 @@ public class lines {
         }
         System.out.println("The average length for all inputs is: "+ i/(thing.size()));
     }
+    public static void removeDup(ArrayList<String> thing){
+        
+    }
 }
