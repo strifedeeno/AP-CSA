@@ -6,6 +6,6 @@ public class ArrayListPractice {
     public static void createList(){
         ArrayList<String> thing=new ArrayList<String>();
         thing.add("The");
-        thing.add("The");
+        thing.add("");
     }
 }
