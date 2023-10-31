@@ -15,7 +15,7 @@ public class lines {
                 thing=false;
             }
             else{
-                liststring.ad
+                liststring.add
             }
         }
     }
