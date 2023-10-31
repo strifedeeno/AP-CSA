@@ -10,5 +10,8 @@ public class ArrayListPractice {
         thing.add("jumped");
         thing.add("The");
         thing.add("The");
+        thing.add("The");
+        thing.add("The");
+        thing.add("The");
     }
 }
