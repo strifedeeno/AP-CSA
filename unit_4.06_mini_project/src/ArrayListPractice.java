@@ -55,6 +55,6 @@ public class ArrayListPractice {
         for(int i=0;i<max;i+=increase){
             numberthing.add(i);
         }
-        return numberthing
+        return numberthing;
     }
 }
