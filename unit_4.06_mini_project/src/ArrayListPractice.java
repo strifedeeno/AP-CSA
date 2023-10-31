@@ -19,7 +19,7 @@ public class ArrayListPractice {
         return thing;
     }
     public static ArrayList<String> addAdjectives(ArrayList<String> thing){
-        thing.add("hello");
+        thing.add("quick");
         return thing;
     }
 }
