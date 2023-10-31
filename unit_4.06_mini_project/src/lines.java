@@ -11,7 +11,7 @@ public class lines {
         while(thing=true){
             System.out.println("Enter username");
             String hi= scan.nextLine();
-            if(hi=="!go"){
+            if(hi.equals("!go")=){
                 break;
             }
             else{
