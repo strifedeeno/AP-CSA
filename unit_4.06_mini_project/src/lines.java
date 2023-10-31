@@ -5,6 +5,7 @@ public class lines {
         ArrayList<String> liststring=new ArrayList<String>();
         liststring= getLines();
         averageLineLength(liststring);
+        removeDuplicates(liststring);
     }
     public static ArrayList<String> getLines(){
         Scanner scan = new Scanner(System.in);
