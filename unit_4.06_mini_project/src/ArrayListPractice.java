@@ -10,8 +10,8 @@ public class ArrayListPractice {
         thing.add("jumped");
         thing.add("over");
         thing.add("the");
-        thing.add("dog");
+        thing.add("cat");
         thing.add("and");
-        thing.add("The");
+        thing.add("do");
     }
 }
