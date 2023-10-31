@@ -9,7 +9,7 @@ public class ArrayListPractice {
         thing.add("fox");
         thing.add("jumped");
         thing.add("over");
-        thing.add("");
+        thing.add("tr");
         thing.add("The");
         thing.add("The");
         thing.add("The");
