@@ -4,7 +4,7 @@ public class lines {
     public static void main(String[] args) {
         
     }
-    public static void lines(){
+    public static ArrayList<String> lines(){
         Scanner scan = new Scanner(System.in);
         boolean thing=true;
         ArrayList<String> liststring=new ArrayList<String>();
@@ -18,5 +18,6 @@ public class lines {
                 liststring.add(hi);
             }
         }
+        return liststring;
     }
 }
