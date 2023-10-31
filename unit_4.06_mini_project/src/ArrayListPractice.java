@@ -12,7 +12,7 @@ public class ArrayListPractice {
         System.out.println(thing);
         ToSentence(thing);
         System.out.println(sequence(17,11,273));
-        System.out.println();
+        System.out.println(createDivisbleSubset(sequence(17,11,273),3));
     }
     public static ArrayList<String> createList(){
         ArrayList<String> thing=new ArrayList<String>();
