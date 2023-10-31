@@ -9,6 +9,7 @@ public class lines {
         boolean thing=true;
         ArrayList<String> liststring=new ArrayList<String>();
         while(thing=true){
+            
             System.out.println("Enter username");
             liststring.add(scan.nextLine());
         }
