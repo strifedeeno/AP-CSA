@@ -8,6 +8,7 @@ public class ArrayListPractice {
         thing.add("The");
         thing.add("fox");
         thing.add("jumped");
+        thing.add("The");
         
     }
 }
