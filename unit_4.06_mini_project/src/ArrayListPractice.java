@@ -2,7 +2,7 @@ import java.util.*;
 public class ArrayListPractice {
     public static void main(String[] args) {
         System.out.println(createList());
-
+        System.out.println();
     }
     public static ArrayList<String> createList(){
         ArrayList<String> thing=new ArrayList<String>();
