@@ -12,7 +12,8 @@ public class lines {
             System.out.println("Enter username");
             String hi= scan.nextLine();
             if(hi.equals("!go")==true){
-                break;
+                thing=false;
+                
             }
             else{
                 liststring.add(hi);
