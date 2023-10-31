@@ -2,7 +2,7 @@ import java.util.*;
 public class lines {
     
     public static void main(String[] args) {
-        
+        lines();
     }
     public static ArrayList<String> lines(){
         Scanner scan = new Scanner(System.in);
