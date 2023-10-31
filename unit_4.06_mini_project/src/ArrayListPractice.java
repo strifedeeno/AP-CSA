@@ -5,5 +5,6 @@ public class ArrayListPractice {
     }
     public static void createList(){
         ArrayList thing=new ArrayList();
+        thing.add("The");
     }
 }
