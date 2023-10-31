@@ -9,6 +9,6 @@ public class ArrayListPractice {
         thing.add("fox");
         thing.add("jumped");
         thing.add("The");
-        
+        thing.add("The");
     }
 }
