@@ -33,7 +33,9 @@ public class lines {
     }
     public static void removeDuplicates(ArrayList<String> thing){
         for(int i=0;i<thing.size();i++){
+           for(int j=0;j<thing.size();j++){
             
+        } 
         }
     }
 }
