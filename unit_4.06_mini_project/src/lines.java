@@ -13,7 +13,7 @@ public class lines {
             String hi= scan.nextLine();
             if(hi.equals("!go")==true){
                 thing=false;
-                
+                S
             }
             else{
                 liststring.add(hi);
