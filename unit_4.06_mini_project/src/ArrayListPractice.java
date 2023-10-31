@@ -4,6 +4,6 @@ public class ArrayListPractice {
         createList();
     }
     public static void createList(){
-        Array
+        ArrayList thing=new ArrayList<>();
     }
 }
