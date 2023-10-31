@@ -35,7 +35,7 @@ public class lines {
         for(int i=0;i<thing.size();i++){
            for(int j=0;j<thing.size();j++){
             if(thing.get(i).equals(thing.get(j))){
-                
+                thing.remove(i);
             }
         } 
         }
