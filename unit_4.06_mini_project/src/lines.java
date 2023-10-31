@@ -6,6 +6,6 @@ public class lines {
     }
     public static void lines(){
         Scanner scan = new Scanner(System.in);
-        fo
+        w
     }
 }
