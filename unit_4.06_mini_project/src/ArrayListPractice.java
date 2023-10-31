@@ -57,7 +57,7 @@ public class ArrayListPractice {
         }
         return numberthing;
     }
-    public static ArrayList<Integer> createDivisble(int start,int increase,int max){
+    public static ArrayList<Integer> createDivisbleSubsw(int start,int increase,int max){
         ArrayList<Integer> numberthing= new ArrayList<Integer>();
         for(int i=0;i<max;i+=increase){
             numberthing.add(i);
