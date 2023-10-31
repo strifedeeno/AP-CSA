@@ -18,7 +18,7 @@ public class ArrayListPractice {
         thing.add("dog");
         return thing;
     }
-    public static ArrayList addAdjectives(ArrayList<String> thing){
+    public static ArrayList<String> addAdjectives(ArrayList<String> thing){
         thing.add("hello");
         return thing;
     }
