@@ -7,5 +7,6 @@ public class ArrayListPractice {
         ArrayList<String> thing=new ArrayList<String>();
         thing.add("The");
         thing.add("fox");
+        thing.add("The");
     }
 }
