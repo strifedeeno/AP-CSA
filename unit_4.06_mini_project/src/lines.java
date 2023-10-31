@@ -9,7 +9,7 @@ public class lines {
         boolean thing=true;
         while(thing=true){
             System.out.println("Enter username");
-        String i= scan.nextLine();
+            String i= scan.nextLine();
         }
     }
 }
