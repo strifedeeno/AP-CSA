@@ -12,6 +12,7 @@ public class ArrayListPractice {
         System.out.println(thing);
         ToSentence(thing);
         System.out.println(sequence(17,11,273));
+        so
     }
     public static ArrayList<String> createList(){
         ArrayList<String> thing=new ArrayList<String>();
@@ -57,11 +58,11 @@ public class ArrayListPractice {
         }
         return numberthing;
     }
-    public static ArrayList<Integer> createDivisbleSubset(int start,int increase,int max){
-        ArrayList<Integer> numberthing= new ArrayList<Integer>();
-        for(int i=0;i<max;i+=increase){
-            numberthing.add(i);
+    public static ArrayList<Integer> createDivisbleSubset(ArrayList<Integer> listInt, int x){
+        ArrayList<Integer> dividedthing= new ArrayList<Integer>();
+        for(int i=0;i<listInt.size();i++){
+            dividedthing.add(listInt.get(i)/x);
         }
-        return numberthing;
+        return dividedthing;
     }
 }
