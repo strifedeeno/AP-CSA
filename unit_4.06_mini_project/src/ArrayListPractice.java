@@ -13,6 +13,6 @@ public class ArrayListPractice {
         thing.add("cat");
         thing.add("and");
         thing.add("dog");
-        System.out.println();
+        System.out.println(thing);
     }
 }
