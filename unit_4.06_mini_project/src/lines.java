@@ -32,14 +32,13 @@ public class lines {
         }
         System.out.println("The average length for all inputs is: "+ i/(thing.size()));
     }
-    public static ArrayList<String> removeDuplicates(ArrayList<String> thing){
-        for(int i=0;i<thing.size();i++){
-           for(int j=0;j<thing.size();j++){
-            if(thing.get(i).equals(thing.get(j))){
-                thing.remove(i);
-            }
-        } 
-        }
-        return thing;
+  public static ArrayList<String> removeDuplicates(ArrayList<String> thing) {
+    ArrayList<String> uniqueList = new ArrayList<String>();
+    for (String s : thing) {
+      if (!uniqueList.contains(s)) {
+        uniqueList.add(s);
+      }
     }
+    return uniqueList;
+  }
 }
