@@ -15,4 +15,7 @@ public class ArrayListPractice {
         thing.add("dog");
         System.out.println(thing);
     }
+    public static void addAdjectives(){
+        
+    }
 }
