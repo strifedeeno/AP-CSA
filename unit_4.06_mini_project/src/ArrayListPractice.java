@@ -68,7 +68,9 @@ public class ArrayListPractice {
     public static ArrayList<Integer> removeDivisible(ArrayList<Integer> listInt, int x){
         ArrayList<Integer> dividedthing= new ArrayList<Integer>();
         for(int i=0;i<listInt.size();i++){
-            
+            if(dividedthing.get(i)%x==0){
+                
+            }
         }
         return dividedthing;
     }
