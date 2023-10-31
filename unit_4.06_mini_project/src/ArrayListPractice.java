@@ -12,7 +12,7 @@ public class ArrayListPractice {
         System.out.println(thing);
         ToSentence(thing);
         System.out.println(sequence(17,11,273));
-        sou
+        sout
     }
     public static ArrayList<String> createList(){
         ArrayList<String> thing=new ArrayList<String>();
