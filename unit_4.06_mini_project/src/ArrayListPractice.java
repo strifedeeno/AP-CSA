@@ -12,6 +12,6 @@ public class ArrayListPractice {
         thing.add("the");
         thing.add("cat");
         thing.add("and");
-        thing.add("do");
+        thing.add("dog");
     }
 }
