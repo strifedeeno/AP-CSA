@@ -10,7 +10,7 @@ public class lines {
         ArrayList<String> liststring=new ArrayList<String>();
         while(thing=true){
             System.out.println("Enter username");
-            String hi= scan.next();
+            String hi= scan.nextLine();
             if(hi=="!go"){
                 thing=false;
             }
