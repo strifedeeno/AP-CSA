@@ -1,9 +1,10 @@
 import java.util.*;
 public class ArrayListPractice {
     public static void main(String[] args) {
-        createList();
+        System.out.println(createList());
+
     }
-    public static void createList(){
+    public static ArrayList<String> createList(){
         ArrayList<String> thing=new ArrayList<String>();
         thing.add("The");
         thing.add("fox");
@@ -13,9 +14,10 @@ public class ArrayListPractice {
         thing.add("cat");
         thing.add("and");
         thing.add("dog");
-        System.out.println(thing);
+        return thing;
     }
-    public static void addAdjectives(){
-        
+    public static ArrayList addAdjectives(ArrayList<String> thing){
+        thing.add("hello");
+        return thing;
     }
 }
