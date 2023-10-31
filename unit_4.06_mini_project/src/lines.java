@@ -6,7 +6,6 @@ public class lines {
     }
     public static void lines(){
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter username");
-        String i= scan.nextLine();
+        for
     }
 }
