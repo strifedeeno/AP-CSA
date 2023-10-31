@@ -9,9 +9,9 @@ public class ArrayListPractice {
         thing.add("fox");
         thing.add("jumped");
         thing.add("over");
-        thing.add("tr");
-        thing.add("The");
-        thing.add("The");
+        thing.add("the");
+        thing.add("dog");
+        thing.add("and");
         thing.add("The");
     }
 }
