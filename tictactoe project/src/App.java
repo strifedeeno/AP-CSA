@@ -8,9 +8,9 @@ public class App {
         if(playermode==1){
             boolean game=true;
             while(game==true){
-                System.out.println("Please Input where you want to place your first letter: ");
+                System.out.println("Please input which row you want to place your x in ");
                 String move = scan.nextLine();
-                
+
             }
         }
         
