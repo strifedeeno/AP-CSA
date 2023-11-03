@@ -61,8 +61,8 @@ public class App {
                     int random1 = rand.nextInt(3);
                     int random2 = rand.nextInt(3);
                     while (board[random2][random1] != null) {
-                        
                         board[random2][random1] = playerpiece;
+                        
                     }
                     printBoard(board);
                     turn++;
