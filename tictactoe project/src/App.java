@@ -62,7 +62,7 @@ public class App {
                     int random2=rand.nextInt(3);
                     if(board[random2][random1]==null){
                     board[random2][random1] = playerpiece;
-                }
+                }el
                     printBoard(board);
                     turn++;
                 }
