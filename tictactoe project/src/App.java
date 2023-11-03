@@ -60,7 +60,7 @@ public class App {
                     String playerpiece = "o";
                     int random1=rand.nextInt(3);
                     int random2=rand.nextInt(3);
-                    board[rand.nextInt(3)][ran] = playerpiece;
+                    board[rand][random1] = playerpiece;
                     printBoard(board);
                     turn++;
                 }
