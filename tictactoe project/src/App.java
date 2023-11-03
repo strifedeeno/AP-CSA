@@ -12,7 +12,8 @@ public class App {
                     if(turn%2==0){
                         System.out.println("Player X won.");
                     }
-                    el
+                    else{
+                    }
                     break;
                 }
                 System.out.print("Please input which row you want to go with: ");
