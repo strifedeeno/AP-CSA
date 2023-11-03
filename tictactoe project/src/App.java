@@ -44,8 +44,6 @@ public class App {
             }
         }else if(playermode == 1)
 
-        printBoard(board);
-
     }
 
     public static void printBoard(String[][] theboard) {
