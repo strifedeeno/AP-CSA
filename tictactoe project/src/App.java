@@ -68,7 +68,9 @@ public class App {
                     printBoard(board);
                     turn++;
                 }
-            
+            } else {
+                System.out.println("That spot has been taken. Try Again!!");
+            }
             if (winconditions(board) == true) {
                 if (turn % 2 == 0) {
                     System.out.println("Good Job. Player x won. Here is the final board: ");
