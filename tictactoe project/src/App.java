@@ -15,6 +15,7 @@ public class App {
                 if(turn%2==0){
                     String playerpiece="x";
                     board[movex][movey]=playerpiece;
+                    printBoard(board);
                 }
                 else{
                     String playerpiece ="o";
