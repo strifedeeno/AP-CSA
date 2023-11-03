@@ -22,7 +22,7 @@ public class App {
                     String playerpiece ="o";
                     board[movex][movey]=playerpiece;
                     printBoard(board);
-                    turn
+                    turn++;
                 }
             }
         }
