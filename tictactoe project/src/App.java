@@ -13,7 +13,7 @@ public class App {
                         System.out.println("Player X won.");
                     }
                     else{
-                    System.out.println("Player o w");
+                    System.out.println("Player o won.");
                     }
                     break;
                 }
