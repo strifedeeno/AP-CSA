@@ -58,6 +58,7 @@ public class App {
                     turn++;
                 } else if (turn % 2 != 0) {
                     String playerpiece = "o";
+                    
                     board[rand.nextInt(3)][rand.nextInt(3)] = playerpiece;
                     printBoard(board);
                     turn++;
