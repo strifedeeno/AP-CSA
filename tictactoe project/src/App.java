@@ -9,7 +9,8 @@ public class App {
             boolean game=true;
             while(game==true){
                 System.out.println("Please input which row you want to place your x in: ");
-                String move = scan.nextLine();
+                int movex = scan.nextInt();
+                
 
             }
         }
