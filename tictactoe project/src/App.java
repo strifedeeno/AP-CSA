@@ -1,5 +1,6 @@
 import java.util.*;
 public class App {
+    public static int turn =0;
     public static void main(String[] args) throws Exception {
         Scanner scan= new Scanner(System.in);
         System.out.println("Do you want to play 2 player or 1 player? Input 1 or 2: ");
@@ -12,7 +13,9 @@ public class App {
                 int movex = scan.nextInt();
                 System.out.println("Please input which column you want to go with: ");
                 int movey = scan.nextInt();
-                
+                if(turn==0){
+                    
+                }
             }
         }
         
