@@ -42,7 +42,7 @@ public class App {
                     System.out.println("You tied!! Here is the final board:");
                 }
             }
-        }else 
+        }else if
 
         printBoard(board);
 
