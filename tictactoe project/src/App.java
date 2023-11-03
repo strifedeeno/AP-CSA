@@ -56,6 +56,9 @@ public class App {
                     board[movex][movey] = playerpiece;
                     printBoard(board);
                     turn++;
+                    } else {
+                System.out.println("That spot has been taken. Try Again!!");
+            }
                 } else if (turn % 2 != 0) {
                     String playerpiece = "o";
                     int random1 = rand.nextInt(3);
