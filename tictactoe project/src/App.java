@@ -14,7 +14,7 @@ public class App {
                 int movey = scan.nextInt();
                 if(turn%2==0){
                     String playerpiece="x";
-                    board[movex][movey]=playerpiece;
+                    board[movex][movex]=playerpiece;
                     printBoard(board);
                     turn++;
                 }
