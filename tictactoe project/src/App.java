@@ -8,9 +8,9 @@ public class App {
         if(playermode==1){
             boolean game=true;
             while(game==true){
-                System.out.println("Please input which row you want to place your x in: ");
+                System.out.println("Please input which column you want to go with: ");
                 int movex = scan.nextInt();
-                
+                int movey = scan.nextInt();
 
             }
         }
