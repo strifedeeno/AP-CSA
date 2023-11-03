@@ -8,7 +8,7 @@ public class App {
         String[][] board=new String[3][3];
         if(playermode==1){
             while(turn<10){
-                System.out.println("Please input which row you want to go with: ");
+                System.out.print("Please input which row you want to go with: ");
                 int movex = scan.nextInt();
                 System.out.println("Please input which column you want to go with: ");
                 int movey = scan.nextInt();
