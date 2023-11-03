@@ -9,9 +9,9 @@ public class App {
         if(playermode==1){
             while(turn<10){
                 System.out.print("Please input which row you want to go with: ");
-                int movex = scan.nextInt();
+                int movex = scan.nextInt()-1;
                 System.out.print("Please input which column you want to go with: ");
-                int movey = scan.nextInt();
+                int movey = scan.nextInt()-1;
                 if(turn%2==0){
                     String playerpiece="x";
                     board[movey][movex]=playerpiece;
