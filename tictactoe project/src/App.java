@@ -20,7 +20,7 @@ public class App {
                 }
                 else{
                     String playerpiece ="o";
-                    board[movex][movey]=playerpiece;
+                    board[movey][movey]=playerpiece;
                     printBoard(board);
                     turn++;
                 }
