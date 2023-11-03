@@ -8,11 +8,11 @@ public class App {
         if(playermode==1){
             boolean game=true;
             while(game==true){
-                System.out.println("Please input which column you want to go with: ");
+                System.out.println("Please input which row you want to go with: ");
                 int movex = scan.nextInt();
-                
+                System.out.println("Please input which column you want to go with: ");
                 int movey = scan.nextInt();
-
+                
             }
         }
         
