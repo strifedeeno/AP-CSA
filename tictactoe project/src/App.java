@@ -10,7 +10,7 @@ public class App {
             while(turn<10){
                 if(winconditions(board)==true){
                     if(turn%2==0){
-                        System.out.println("Player X won");
+                        System.out.println("Player X won.");
                     }
                     break;
                 }
