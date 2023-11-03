@@ -4,10 +4,11 @@ public class App {
         Scanner scan= new Scanner(System.in);
         System.out.println("Do you want to play 2 player or 1 player? Input 1 or 2: ");
         int playermode =scan.nextInt();
-        if(playermode==1){
-            
-        }
         String[][] board=new String[3][3];
+        if(playermode==1){
+
+        }
+        
         printBoard(board);
 
     }
