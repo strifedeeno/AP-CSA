@@ -46,7 +46,39 @@ public class App {
                 }
             }
         }else if(playermode == 2){
-            
+           System.out.print("Please input which row you want to go with: ");
+                int movex = scan.nextInt() - 1;
+                System.out.print("Please input which column you want to go with: ");
+                int movey = scan.nextInt() - 1;
+                if (board[movex][movey] == null) {
+                    if (turn % 2 == 0) {
+                        String playerpiece = "x";
+                        board[movex][movey] = playerpiece;
+                        printBoard(board);
+                        turn++;
+                    } else if (turn % 2 != 0) {
+                        String playerpiece = "o";
+                        board[movex][movey] = playerpiece;
+                        printBoard(board);
+                        turn++;
+                    }
+                }
+                else{
+                    System.out.println("That spot has been taken. Try Again!!");
+                }
+                if (winconditions(board) == true) {
+                    if (turn % 2 == 0) {
+                        System.out.println("Good Job. Player x won. Here is the final board: ");
+                        printBoard(board);
+                    } else {
+                        System.out.println("Good Job. Player o won. Here is the final board: ");
+                        printBoard(board);
+                    }
+                    break;
+                } else if (winconditions(board) == false && turn == 10) {
+                    System.out.println("You tied!! Here is the final board:");
+                    printBoard(board);
+                } 
         }
     }
 
