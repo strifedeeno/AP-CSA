@@ -48,11 +48,12 @@ public class App {
         } else if (playermode == 2) {
             
                 if (turn % 2 == 0) {
-                    
+
                     System.out.print("Please input which row you want to go with: ");
                     int movex = scan.nextInt() - 1;
                     System.out.print("Please input which column you want to go with: ");
                     int movey = scan.nextInt() - 1;
+                    if (board[movex][movey] == null) {
                     String playerpiece = "x";
                     board[movex][movey] = playerpiece;
                     printBoard(board);
