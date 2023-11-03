@@ -69,7 +69,7 @@ public class App {
             wonornot=true;
         }else if(boardthing[0][0]=="o" && boardthing[1][1]=="o" && boardthing[2][2]=="o"){
             wonornot=true;
-        }else if(boardthing[0][2]=="o" && boardthing[1][1]=="o" && boardthing[2][0]=="x"){
+        }else if(boardthing[0][2]=="o" && boardthing[1][1]=="o" && boardthing[2][0]=="o"){
             wonornot=true;
         }
 return wonornot;
