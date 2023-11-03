@@ -45,7 +45,7 @@ public class App {
                     printBoard(board);
                 }
             }
-        }else if(playermode == 1){
+        }else if(playermode == 2){
 
         }
     }
