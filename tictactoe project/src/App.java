@@ -30,7 +30,7 @@ public class App {
     }
     public static void printBoard(String[][] theboard){
         for(int i= 0;i<theboard.length;i++){
-            System.out.println(theboard);
+            System.out.println(Arrays.toString(theboard[i]));
         }
     }
 }
