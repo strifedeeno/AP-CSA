@@ -20,6 +20,7 @@ public class App {
                 else{
                     String playerpiece ="o";
                     board[movex][movey]=playerpiece;
+                    p
                 }
             }
         }
