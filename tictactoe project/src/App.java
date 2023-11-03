@@ -6,6 +6,6 @@ public class App {
         
     }
     public static void printBoard(String[][] theboard){
-        dor i
+        fo
     }
 }
