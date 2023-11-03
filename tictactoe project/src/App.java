@@ -58,9 +58,9 @@ public class App {
                     turn++;
                 } else if (turn % 2 != 0) {
                     String playerpiece = "o";
-                    int random1=rand.nextInt(3)
-                    int random2=rand.nextInt(3)
-                    board[rand.nextInt(3)][rand.nextInt(3)] = playerpiece;
+                    int random1=rand.nextInt(3);
+                    int random2=rand.nextInt(3);
+                    board[rand.nextInt(3)][r] = playerpiece;
                     printBoard(board);
                     turn++;
                 }
