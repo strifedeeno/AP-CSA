@@ -9,6 +9,7 @@ public class App {
         if(playermode==1){
             while(turn<10){
                 if(winconditions(board)==true){
+                    printBoard(board);
                     if(turn%2==0){
                         System.out.println("Player X won.");
                     }
