@@ -9,6 +9,11 @@ public class App {
         if(playermode==1){
             boolean game=true;
             while(game==true){
+                for(int i =0;i<board.length;i++){
+                    for(int j=0;j<board.length;i++){
+                        
+                    }
+                }
                 System.out.println("Please input which row you want to go with: ");
                 int movex = scan.nextInt();
                 System.out.println("Please input which column you want to go with: ");
