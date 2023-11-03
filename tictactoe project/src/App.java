@@ -6,8 +6,10 @@ public class App {
         int playermode =scan.nextInt();
         String[][] board=new String[3][3];
         if(playermode==1){
-            boolean game=true
-            while(game)
+            boolean game=true;
+            while(game==true){
+                
+            }
         }
         
         printBoard(board);
