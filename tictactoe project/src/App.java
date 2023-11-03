@@ -8,7 +8,7 @@ public class App {
         if(playermode==1){
             boolean game=true;
             while(game==true){
-                System.out.println(Please input);
+                System.out.println("");
             }
         }
         
