@@ -34,6 +34,7 @@ public class App {
                 if (winconditions(board) == true) {
                     if (turn % 2 == 0) {
                         System.out.println("Good Job. Player x won. Here is the final board: ");
+                        
                     } else {
                         System.out.println("Good Job. Player o won. Here is the final board: ");
                         printBoard(board);
