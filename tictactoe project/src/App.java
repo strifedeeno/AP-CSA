@@ -10,6 +10,7 @@ public class App {
             while(game==true){
                 System.out.println("Please input which column you want to go with: ");
                 int movex = scan.nextInt();
+                
                 int movey = scan.nextInt();
 
             }
