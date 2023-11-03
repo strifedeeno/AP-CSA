@@ -16,12 +16,13 @@ public class App {
                     String playerpiece="x";
                     board[movex][movey]=playerpiece;
                     printBoard(board);
-                    turn
+                    turn++;
                 }
                 else{
                     String playerpiece ="o";
                     board[movex][movey]=playerpiece;
                     printBoard(board);
+                    turn
                 }
             }
         }
