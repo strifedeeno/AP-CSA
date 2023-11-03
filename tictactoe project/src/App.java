@@ -40,6 +40,7 @@ public class App {
                     break;
                 } else if (winconditions(board) == false && turn == 10) {
                     System.out.println("You tied!! Here is the final board:");
+                    printBoard(board);
                 }
             }
         }else if(playermode == 1)
