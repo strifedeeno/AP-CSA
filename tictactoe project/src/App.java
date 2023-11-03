@@ -13,7 +13,12 @@ public class App {
                 int movex = scan.nextInt();
                 System.out.println("Please input which column you want to go with: ");
                 int movey = scan.nextInt();
-                if(turn==0){
+                if(turn%2==0){
+                    String playerpiece="x";
+                    board[movex][movey]=playerpiece;
+                }
+                else{
+                    String playerpiece ="o";
                     
                 }
             }
