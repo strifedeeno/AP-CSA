@@ -46,7 +46,7 @@ public class App {
                 }
             }
         }else if(playermode == 2){
-
+            
         }
     }
 
