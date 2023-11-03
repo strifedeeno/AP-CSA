@@ -52,6 +52,8 @@ public class App {
                     int movex = scan.nextInt() - 1;
                     System.out.print("Please input which column you want to go with: ");
                     int movey = scan.nextInt() - 1;
+                    } else {
+                System.out.println("That spot has been taken. Try Again!!");
                     String playerpiece = "x";
                     board[movex][movey] = playerpiece;
                     printBoard(board);
