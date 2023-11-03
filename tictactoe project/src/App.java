@@ -58,7 +58,7 @@ public class App {
                         turn++;
                     } else if (turn % 2 != 0) {
                         String playerpiece = "o";
-                        board[movex][movey] = playerpiece;
+                        board[rand.nextInt()][movey] = playerpiece;
                         printBoard(board);
                         turn++;
                     }
