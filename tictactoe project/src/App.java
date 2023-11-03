@@ -29,7 +29,7 @@ public class App {
                 }
                 else{
                     String playerpiece ="o";
-                    board[movey][movex]=playerpiece;
+                    board[movex][movex]=playerpiece;
                     printBoard(board);
                     turn++;
                 }
