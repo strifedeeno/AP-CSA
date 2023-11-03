@@ -9,7 +9,9 @@ public class App {
         if(playermode==1){
             while(turn<10){
                 if(winconditions(board)==true){
-                    System.out.println();
+                    if(turn%2==0){
+                        System.out.println();
+                    }
                     break;
                 }
                 System.out.print("Please input which row you want to go with: ");
