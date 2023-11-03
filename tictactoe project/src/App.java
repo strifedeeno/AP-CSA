@@ -55,6 +55,23 @@ public class App {
         }else if(boardthing[0][2]=="x" && boardthing[1][1]=="x" && boardthing[2][0]=="x"){
             wonornot=true;
         }
+        if(boardthing[0][0]=="x" && boardthing[0][1]=="x" && boardthing[0][2]=="x"){
+            wonornot=true;
+        }else if(boardthing[1][0]=="x" && boardthing[1][1]=="x" && boardthing[1][2]=="x"){
+            wonornot=true;
+        }else if(boardthing[2][0]=="x" && boardthing[2][1]=="x" && boardthing[2][2]=="x"){
+            wonornot=true;
+        }else if(boardthing[0][0]=="x" && boardthing[1][0]=="x" && boardthing[2][0]=="x"){
+            wonornot=true;
+        }else if(boardthing[0][1]=="x" && boardthing[1][1]=="x" && boardthing[2][1]=="x"){
+            wonornot=true;
+        }else if(boardthing[0][2]=="x" && boardthing[1][2]=="x" && boardthing[2][2]=="x"){
+            wonornot=true;
+        }else if(boardthing[0][0]=="x" && boardthing[1][1]=="x" && boardthing[2][2]=="x"){
+            wonornot=true;
+        }else if(boardthing[0][2]=="x" && boardthing[1][1]=="x" && boardthing[2][0]=="x"){
+            wonornot=true;
+        }
 return wonornot;
     }
 }
