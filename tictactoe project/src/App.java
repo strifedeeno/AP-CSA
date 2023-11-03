@@ -38,13 +38,11 @@ public class App {
     }
     public static boolean winconditions(String[][] boardthing){
         boolean wonornot=false;
-        for(int i=0;i<boardthing.length;i++){
-        if(boardthing[i][i]=="x"||boardthing[i][i]=="o"){
+        if(boardthing[0][0]=="x" && boardthing[0][1]=="x" && boardthing[0][2]=="x"){
             wonornot=true;
-        }else if(boardthing[i][i+1]=="x"||boardthing[i+1][i+1]=="o"){
-
+        }if(boardthing[0][0]=="x" && boardthing[0][1]=="x" && boardthing[0][2]=="x"){
+            wonornot=true;
         }
-    }
 return wonornot;
     }
 }
