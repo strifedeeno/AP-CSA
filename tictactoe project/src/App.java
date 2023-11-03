@@ -43,6 +43,7 @@ public class App {
                 }
             }
         }
+        
 
         printBoard(board);
 
