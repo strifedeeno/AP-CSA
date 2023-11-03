@@ -5,5 +5,7 @@ public class App {
         String[][] board=new String[3][3];
         
     }
-    public static void printBoard(){}
+    public static void printBoard(){
+        
+    }
 }
