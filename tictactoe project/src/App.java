@@ -89,6 +89,7 @@ public class App {
             printBoard(board);
         }
     }
+}
     }
 
     public static void printBoard(String[][] theboard) {
