@@ -69,7 +69,7 @@ public class App {
                         random2 = rand.nextInt(3);
                     }
                     board[random2][random1] = playerpiece;
-                    System.out.println("");
+                    System.out.println("Computer move");
                     printBoard(board);
                     turn++;
                 }
