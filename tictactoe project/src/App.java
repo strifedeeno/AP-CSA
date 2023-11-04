@@ -46,7 +46,7 @@ public class App {
                 }
             }
         } else if (playermode == 2) {
-            while (turn < 10){}
+            while (turn < 10){
             if (turn % 2 == 0) {
                 System.out.print("Please input which row you want to go with: ");
                 int movex = scan.nextInt() - 1;
