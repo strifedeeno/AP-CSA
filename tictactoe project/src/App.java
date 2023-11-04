@@ -72,7 +72,7 @@ public class App {
                 printBoard(board);
                 turn++;
             }
-        } else {
+         else {
             System.out.println("That spot has been taken. Try Again!!");
         }
         if (winconditions(board) == true) {
