@@ -88,6 +88,7 @@ public class App {
                 }
             }
         }
+        scan.close();
     }
 
     public static void printBoard(String[][] theboard) {
