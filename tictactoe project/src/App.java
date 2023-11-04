@@ -86,7 +86,7 @@ public class App {
         } else if (winconditions(board) == false && turn == 10) {
             System.out.println("You tied!! Here is the final board:");
             printBoard(board);
-        }
+        }}
     }
 
     }
