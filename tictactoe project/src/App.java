@@ -1,8 +1,11 @@
+/* Code history is in git logs. 
+https://github.com/strifedeeno/AP-CSA
+*/
 import java.util.*;
 
-public class App {
+public class Main {
     public static int turn = 0;
-
+    public static String x ="";
     public static void main(String[] args) throws Exception {
         Random rand = new Random();
         Scanner scan = new Scanner(System.in);
@@ -75,10 +78,10 @@ public class App {
                 }
                 if (winconditions(board) == true) {
                     if (turn % 2 == 0) {
-                        System.out.println("Good Job. Player x won. Here is the final board: ");
+                        System.out.println("Good Job. Player" +x+" won. Here is the final board: ");
                         printBoard(board);
                     } else {
-                        System.out.println("Good Job. Player o won. Here is the final board: ");
+                        System.out.println("Good Job. Player "+x+" won. Here is the final board: ");
                         printBoard(board);
                     }
                     break;
@@ -101,38 +104,42 @@ public class App {
         boolean wonornot = false;
         if (boardthing[0][0] == "x" && boardthing[0][1] == "x" && boardthing[0][2] == "x") {
             wonornot = true;
-        } else if (boardthing[1][0] == "x" && boardthing[1][1] == "x" && boardthing[1][2] == "x") {
+          x="x";
+        } else if (boardthing[1][0] == "x" && boardthing[1][1] == "x" && boardthing[1][2] == "x") {x="x";
             wonornot = true;
-        } else if (boardthing[2][0] == "x" && boardthing[2][1] == "x" && boardthing[2][2] == "x") {
+        } else if (boardthing[2][0] == "x" && boardthing[2][1] == "x" && boardthing[2][2] == "x") {x="x";
             wonornot = true;
-        } else if (boardthing[0][0] == "x" && boardthing[1][0] == "x" && boardthing[2][0] == "x") {
+        } else if (boardthing[0][0] == "x" && boardthing[1][0] == "x" && boardthing[2][0] == "x") {x="x";
             wonornot = true;
-        } else if (boardthing[0][1] == "x" && boardthing[1][1] == "x" && boardthing[2][1] == "x") {
+        } else if (boardthing[0][1] == "x" && boardthing[1][1] == "x" && boardthing[2][1] == "x") {x="x";
             wonornot = true;
-        } else if (boardthing[0][2] == "x" && boardthing[1][2] == "x" && boardthing[2][2] == "x") {
+        } else if (boardthing[0][2] == "x" && boardthing[1][2] == "x" && boardthing[2][2] == "x") {x="x";
             wonornot = true;
-        } else if (boardthing[0][0] == "x" && boardthing[1][1] == "x" && boardthing[2][2] == "x") {
+        } else if (boardthing[0][0] == "x" && boardthing[1][1] == "x" && boardthing[2][2] == "x") {x="x";
             wonornot = true;
-        } else if (boardthing[0][2] == "x" && boardthing[1][1] == "x" && boardthing[2][0] == "x") {
+        } else if (boardthing[0][2] == "x" && boardthing[1][1] == "x" && boardthing[2][0] == "x") {x="x";
             wonornot = true;
         }
         if (boardthing[0][0] == "o" && boardthing[0][1] == "o" && boardthing[0][2] == "o") {
             wonornot = true;
-        } else if (boardthing[1][0] == "o" && boardthing[1][1] == "o" && boardthing[1][2] == "o") {
+          x="o";
+        } else if (boardthing[1][0] == "o" && boardthing[1][1] == "o" && boardthing[1][2] == "o") {x="o";
             wonornot = true;
-        } else if (boardthing[2][0] == "o" && boardthing[2][1] == "o" && boardthing[2][2] == "o") {
+        } else if (boardthing[2][0] == "o" && boardthing[2][1] == "o" && boardthing[2][2] == "o") {x="o";
             wonornot = true;
-        } else if (boardthing[0][0] == "o" && boardthing[1][0] == "o" && boardthing[2][0] == "o") {
+        } else if (boardthing[0][0] == "o" && boardthing[1][0] == "o" && boardthing[2][0] == "o") {x="o";
             wonornot = true;
-        } else if (boardthing[0][1] == "o" && boardthing[1][1] == "o" && boardthing[2][1] == "o") {
+        } else if (boardthing[0][1] == "o" && boardthing[1][1] == "o" && boardthing[2][1] == "o") {x="o";
             wonornot = true;
-        } else if (boardthing[0][2] == "o" && boardthing[1][2] == "o" && boardthing[2][2] == "o") {
+        } else if (boardthing[0][2] == "o" && boardthing[1][2] == "o" && boardthing[2][2] == "o") {x="o";
             wonornot = true;
-        } else if (boardthing[0][0] == "o" && boardthing[1][1] == "o" && boardthing[2][2] == "o") {
+        } else if (boardthing[0][0] == "o" && boardthing[1][1] == "o" && boardthing[2][2] == "o") {x="o";
             wonornot = true;
-        } else if (boardthing[0][2] == "o" && boardthing[1][1] == "o" && boardthing[2][0] == "o") {
+        } else if (boardthing[0][2] == "o" && boardthing[1][1] == "o" && boardthing[2][0] == "o") {x="o";
             wonornot = true;
+          
         }
+      
         return wonornot;
     }
 }
