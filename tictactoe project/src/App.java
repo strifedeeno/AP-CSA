@@ -10,7 +10,7 @@ public class App {
         int playermode = scan.nextInt();
         String[][] board = new String[3][3];
         printBoard(board);
-        if (playermode == 1) {
+        if (playermode == 2) {
             while (turn < 10) {
                 System.out.print("Please input which row you want to go with: ");
                 int movex = scan.nextInt() - 1;
