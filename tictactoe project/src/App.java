@@ -3,7 +3,7 @@ https://github.com/strifedeeno/AP-CSA
 */
 import java.util.*;
 
-public class Main {
+public class App {
     public static int turn = 0;
     public static String x ="";
     public static void main(String[] args) throws Exception {
