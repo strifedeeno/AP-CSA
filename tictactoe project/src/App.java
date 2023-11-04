@@ -2,7 +2,6 @@ import java.util.*;
 
 public class App {
     public static int turn = 0;
-    Random rand = new Random();
 
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
