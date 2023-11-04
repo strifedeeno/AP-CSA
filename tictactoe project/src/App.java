@@ -47,48 +47,46 @@ public class App {
             }
         } else if (playermode == 2) {
             while (turn < 10){
-            if (turn % 2 == 0) {
-                System.out.print("Please input which row you want to go with: ");
-                int movex = scan.nextInt() - 1;
-                System.out.print("Please input which column you want to go with: ");
-                int movey = scan.nextInt() - 1;
-                if (board[movex][movey] == null) {
-                    String playerpiece = "x";
-                    board[movex][movey] = playerpiece;
+                if (turn % 2 == 0) {
+                    System.out.print("Please input which row you want to go with: ");
+                    int movex = scan.nextInt() - 1;
+                    System.out.print("Please input which column you want to go with: ");
+                    int movey = scan.nextInt() - 1;
+                    if (board[movex][movey] == null) {
+                        String playerpiece = "x";
+                        board[movex][movey] = playerpiece;
+                        printBoard(board);
+                        turn++;
+                    } else {
+                        System.out.println("That spot has been taken. Try Again!!");
+                    }
+                } else if (turn % 2 != 0) {
+                    String playerpiece = "o";
+                    int random1 = rand.nextInt(3);
+                    int random2 = rand.nextInt(3);
+                    while (board[random2][random1] != null) {
+                        random1 = rand.nextInt(3);
+                        random2 = rand.nextInt(3);
+                    }
+                    board[random2][random1] = playerpiece;
                     printBoard(board);
                     turn++;
-                } else {
-                    System.out.println("That spot has been taken. Try Again!!");
                 }
-            } else if (turn % 2 != 0) {
-                String playerpiece = "o";
-                int random1 = rand.nextInt(3);
-                int random2 = rand.nextInt(3);
-                while (board[random2][random1] != null) {
-                    board[random2][random1] = playerpiece;
-                    random1 = rand.nextInt(3);
-                    random2 = rand.nextInt(3);
+                if (winconditions(board) == true) {
+                    if (turn % 2 == 0) {
+                        System.out.println("Good Job. Player x won. Here is the final board: ");
+                        printBoard(board);
+                    } else {
+                        System.out.println("Good Job. Player o won. Here is the final board: ");
+                        printBoard(board);
+                    }
+                    break;
+                } else if (winconditions(board) == false && turn == 10) {
+                    System.out.println("You tied!! Here is the final board:");
+                    printBoard(board);
                 }
-                printBoard(board);
-                turn++;
             }
-         else {
-            System.out.println("That spot has been taken. Try Again!!");
         }
-        if (winconditions(board) == true) {
-            if (turn % 2 == 0) {
-                System.out.println("Good Job. Player x won. Here is the final board: ");
-                printBoard(board);
-            } else {
-                System.out.println("Good Job. Player o won. Here is the final board: ");
-                printBoard(board);
-            }
-            break;
-        } else if (winconditions(board) == false && turn == 10) {
-            System.out.println("You tied!! Here is the final board:");
-            printBoard(board);
-        }
-    }
     }
 
     public static void printBoard(String[][] theboard) {
@@ -135,5 +133,4 @@ public class App {
         }
         return wonornot;
     }
-}
 }
