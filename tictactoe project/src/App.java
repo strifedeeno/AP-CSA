@@ -45,7 +45,7 @@ public class App {
                     printBoard(board);
                 }
             }
-        } else if (playermode == 2) {
+        } else if (playermode == 1) {
             while (turn < 10){
                 if (turn % 2 == 0) {
                     System.out.print("Please input which row you want to go with: ");
