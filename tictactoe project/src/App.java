@@ -82,6 +82,7 @@ public class App {
                 System.out.println("Good Job. Player o won. Here is the final board: ");
                 printBoard(board);
             }
+            break;
         } else if (winconditions(board) == false && turn == 10) {
             System.out.println("You tied!! Here is the final board:");
             printBoard(board);
