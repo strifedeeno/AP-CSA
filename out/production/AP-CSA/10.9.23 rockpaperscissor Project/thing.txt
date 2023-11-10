@@ -1,0 +1,39 @@
+
+Page
+1
+of 2
+Unit_3.16_mini_project: Rock Paper Scissors
+(Total: 6 points)
+This mini project will practice if/else, Scanner object, while loop, random number generator, and
+cumulative sum.
+Write a game that plays many rounds of Rock Paper Scissors until "q" is entered.
+The user will enter one of three items, and computer will get one from a random generator.
+ rock (defeats scissors, but loses to paper),
+ paper (defeats rock, but loses to scissors),
+ scissors (defeats paper, but loses to rock).
+If the player and computer choose the same item, the game is a tie.
+After each user input, a verdict will be displayed (user loses, wins, or ties), prompt for another
+round.
+After user enters "q" (case sensitive), print totally how many times the user wins.
+Below is a sample output of this project.
+========================================================
+Please enter your pick (1--rock, 2--paper, 3--scissor, q--exit): 1
+Computer picks: 3
+Result: user wins
+Please enter your pick (1--rock, 2--paper, 3--scissor, q--exit): 3
+Computer picks: 2
+Result: computer wins
+Please enter your pick (1--rock, 2--paper, 3--scissor, q--exit): 2
+Computer picks: 2
+Result: tie
+Please enter your pick (1--rock, 2--paper, 3--scissor, q--exit): q
+Game over.
+User total wins: 1 time.
+=======================================================
+Grading criteria:
+ Your program should compile and execute without any errors. (1 points)
+ Your program should give the correct results based on the user input. (1 point)
+ Your program shall be able to run as many times as users want. (1 point)
+ Your program only finishes when user enters “q” (case sensitive). (1 point)
+ Your program should keep track of total user wins. (1 point)
+ Your program should loop if they put in an invalid choice. (1 point)
